@@ -22,5 +22,5 @@ x *= 4;  // x = x * 4   // output: 100
 x++; // x = x + 1   // increament by 1
 x--; // x = x - 1 // decrement by 1
 x--; // output: 99
-x++;
+x++; // output: 100
 console.log(x);
