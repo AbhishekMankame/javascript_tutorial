@@ -95,3 +95,4 @@ age1 = 31;
 
 const birthYear = 1991;
 birthYear = 1990;
+// Note: we cannot even declare empty const variable
