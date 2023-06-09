@@ -17,4 +17,6 @@ console.log(PI);
 // only $ and _ are the special symnols which are allowed in JavaScript
 // variables name should not start with uppercase letters as  it is used speccific use cases like OOPS
 
+// It's better to have descriptive variable name
+
 
