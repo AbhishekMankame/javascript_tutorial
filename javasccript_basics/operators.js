@@ -71,3 +71,4 @@ console.log(BMIMark, BMIJohn, MarkHigherBMI);
 
 const firstName3 = 'Abhishek';
 const job = 'Software Developer';
+const birthYear = 2001;
