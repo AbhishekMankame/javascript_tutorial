@@ -19,4 +19,5 @@ console.log(firstName2 + ' ' + lastName);
 let x = 10 + 5; // output: 15
 x += 10;  // x = x + 10   // output: 25
 x *= 4;  // x = x * 4   // output: 100
+x++; // x = x + 1   // increament by 1
 console.log(x);
