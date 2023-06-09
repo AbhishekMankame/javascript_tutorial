@@ -13,3 +13,4 @@ console.log(ageJonas / 5, ageJonas * 3);
 const firstName = 'Abhishek';
 const lastName = 'Mankame';
 console.log(firstName + lastName);
+console.log(firstName + ' ' + lastName);
