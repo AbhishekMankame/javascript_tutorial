@@ -46,3 +46,5 @@ console.log(!fullAge);
 let children;
 console.log(children);
 
+// 5. Null: Also means'empty value'
+
