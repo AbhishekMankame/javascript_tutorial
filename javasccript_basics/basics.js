@@ -86,4 +86,4 @@ year = 1991;
 console.log(year);
 console.log(typeof year);
 
-console.log(typeof null); //here it is a kind off a bug which displays the type of null as object --> this is regarded as bug or error (this bug is created for a legacy reason)
+console.log(typeof null); //here it is a kind off a bug which displays the type of null as object --> this is regarded as bug or error (this bug is not corrected for a legacy reason)
