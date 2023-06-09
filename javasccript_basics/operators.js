@@ -26,3 +26,5 @@ x--; // x = x - 1 // decrement by 1
 x--; // output: 99
 x++; // output: 100
 console.log(x);
+
+// Comparison operators
