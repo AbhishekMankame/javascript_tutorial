@@ -8,3 +8,7 @@ let firstName = 'Abhishek';
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
+
+//let a& b = 'AB'; --> This one gives syntax error
+
+
