@@ -21,5 +21,6 @@ x += 10;  // x = x + 10   // output: 25
 x *= 4;  // x = x * 4   // output: 100
 x++; // x = x + 1   // increament by 1
 x--; // x = x - 1 // decrement by 1
-x--;
+x--; // output: 99
+x++;
 console.log(x);
