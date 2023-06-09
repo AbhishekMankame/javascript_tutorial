@@ -14,3 +14,6 @@ const firstName2 = 'Abhishek';
 const lastName = 'Mankame';
 console.log(firstName2 + lastName);
 console.log(firstName2 + ' ' + lastName);
+
+// Assignment operators
+let x = 10 + 5;
