@@ -11,6 +11,6 @@ console.log(firstName);
 
 //let a& b = 'AB'; --> This one gives syntax error
 // only $ and _ are the special symnols which are allowed in JavaScript
-// variables name should not start with uppercase letters
+// variables name should not start with uppercase letters as  it is used speccific use cases like OOPS
 
 
