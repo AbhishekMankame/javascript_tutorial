@@ -34,6 +34,6 @@ let age = 23; //number data type
 console.log(age);
 
 // 2. String: Sequence of characters, used for text
-let firstNamed = 'Abhishek';
+let firstNamed = 'Abhishek'; // can use either single or double quotes
 console.log(firstNamed)
 
