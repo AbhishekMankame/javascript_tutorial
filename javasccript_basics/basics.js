@@ -19,4 +19,5 @@ console.log(PI);
 
 // It's better to have descriptive variable name
 
-
+let myFirstJob = 'Programmer';
+let myCurrentJob = 'Teacher';
