@@ -10,7 +10,7 @@ console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 console.log(ageJonas * 2);
 console.log(ageJonas / 5, ageJonas * 3);
 
-const firstName = 'Abhishek';
+const firstName2 = 'Abhishek';
 const lastName = 'Mankame';
-console.log(firstName + lastName);
-console.log(firstName + ' ' + lastName);
+console.log(firstName2 + lastName);
+console.log(firstName2 + ' ' + lastName);
