@@ -1,3 +1,4 @@
 // operators in javascript
 const ageJonas = 2037 - 1991;
-console.log(ageJonas);
+const ageSarah = 2037 - 2018;
+console.log(ageJonas, ageSarah);
