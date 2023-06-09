@@ -44,3 +44,5 @@ console.log(x1, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+
+// Coding Challenge #1
