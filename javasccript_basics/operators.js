@@ -27,4 +27,4 @@ x--; // output: 99
 x++; // output: 100
 console.log(x);
 
-// Comparison operators
+// Comparison operators --> it is used to produce boolean values
