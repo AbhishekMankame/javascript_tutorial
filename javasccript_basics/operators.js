@@ -67,3 +67,4 @@ console.log(BMIMark, BMIJohn, MarkHigherBMI);
 
 
 // Strings and Template Literals
+// Strings in Javascript
