@@ -64,3 +64,6 @@ const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 const MarkHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, MarkHigherBMI);
+
+
+// Strings and Template Literals
