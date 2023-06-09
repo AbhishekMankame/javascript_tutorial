@@ -105,3 +105,4 @@ job2 = 'doctor';
 
 lastName = 'Mankame';
 console.log(lastName);
+console.log(typeof lastName);
