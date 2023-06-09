@@ -6,3 +6,4 @@ console.log(ageJonas, ageSarah);
 
 console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 console.log(ageJonas * 2);
+console.log(ageJonas / 5, ageJonas * 3);
