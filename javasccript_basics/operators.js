@@ -71,7 +71,7 @@ console.log(BMIMark, BMIJohn, MarkHigherBMI);
 
 const firstName3 = 'Abhishek';
 const job = 'Software Developer';
-const birthYear = 2001;
-const year = 2037;
+const birthYear1 = 2001;
+const year1 = 2037;
 
-const abhishek = "I'm " + firstName3 + ', a' + (year - birthYear) + ' years old '
+const abhishek = "I'm " + firstName3 + ', a' + (year1 - birthYear1) + ' years old '
