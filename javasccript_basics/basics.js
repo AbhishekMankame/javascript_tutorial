@@ -56,3 +56,11 @@ console.log(children);
 
 //// value has types, NOT variable!!!!
 
+// single line comment
+
+/*
+Multi
+        line
+                comment
+*/
+
