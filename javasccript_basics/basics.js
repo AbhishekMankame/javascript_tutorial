@@ -89,3 +89,9 @@ console.log(typeof year);
 console.log(typeof null); //here it is a kind off a bug which displays the type of null as object --> this is regarded as bug or error (this bug is never
 
 // let and const introduced in ES6 (they are modern javascript) whereas var keyword is the old way of declaring the variable.
+
+let age1 = 30;
+age1 = 31;
+
+const birthYear = 1991;
+birthYear = 1990;
