@@ -37,3 +37,7 @@ console.log(age);
 let firstNamed = 'Abhishek'; // can use either single or double quotes
 console.log(firstNamed)
 
+// 3. Boolean: Logical type that can only be true or falst, used for taking decisions
+let fullAge = true;
+console.log(fullAge)
+
