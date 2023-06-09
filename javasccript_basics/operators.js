@@ -68,3 +68,6 @@ console.log(BMIMark, BMIJohn, MarkHigherBMI);
 
 // Strings and Template Literals
 // Strings in Javascript
+
+const firstName3 = 'Abhishek';
+const job = 'Software Developer';
