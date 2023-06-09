@@ -27,3 +27,7 @@ console.log('My current job is: ' + myCurrentJob);
 
 
 // Primitive data types in Javascript
+// There are mainly 7 primitive data types
+
+// 1. Number: Floating point numbers, used for decimals and integers
+let age = 23; //number data type
