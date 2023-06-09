@@ -31,3 +31,4 @@ console.log('My current job is: ' + myCurrentJob);
 
 // 1. Number: Floating point numbers, used for decimals and integers
 let age = 23; //number data type
+console.log(age);
