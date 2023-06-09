@@ -28,3 +28,4 @@ x++; // output: 100
 console.log(x);
 
 // Comparison operators --> it is used to produce boolean values
+console.log(ageJonas > ageSarah); // output: true
