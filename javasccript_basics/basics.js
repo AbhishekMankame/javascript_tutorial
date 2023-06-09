@@ -65,5 +65,8 @@ Multi
 */
 
 let JavaScriptIsFun = true
-console.log(JavaScriptIsFun)
+console.log(JavaScriptIsFun);
+
+// using typeof operator
+console.log(typeof true);
 
