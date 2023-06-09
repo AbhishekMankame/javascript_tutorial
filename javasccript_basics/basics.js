@@ -77,3 +77,7 @@ console.log(typeof children);
 console.log(typeof 5425345362362346086098086008976870060867868067893424325243523235235252352345325432525235235231234142354255252532554364365374747647467);
 JavaScriptIsFun = 'YES!'
 console.log(typeof JavaScriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
