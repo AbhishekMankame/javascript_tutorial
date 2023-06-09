@@ -17,3 +17,4 @@ console.log(firstName2 + ' ' + lastName);
 
 // Assignment operators
 let x = 10 + 5;
+console.log(x);
