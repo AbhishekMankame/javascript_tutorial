@@ -64,3 +64,6 @@ Multi
                 comment
 */
 
+let JavaScriptIsFun = true
+console.log(JavaScriptIsFun)
+
