@@ -23,4 +23,4 @@ let myFirstJob = 'Programmer';
 let myCurrentJob = 'Teacher';
 
 console.log('My first job was: ' + myFirstJob);
-console.log(myCurrentJob);
+console.log('My current job is: ' + myCurrentJob);
