@@ -50,3 +50,5 @@ console.log(children);
 
 //6. Symbol(ES2015): Value that is unique and cannot be changed [Not useful for now]
 
+// 7. BigInt (ES2020): Larger integers than the Number type can hold
+
