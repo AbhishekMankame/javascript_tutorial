@@ -53,3 +53,4 @@ const massJohn = 92;
 const heightJohn = 1.95;
 
 // Calcualting the BMI of Mark and John
+// BMI = mass / height ** 2 = mass / (height * height)
