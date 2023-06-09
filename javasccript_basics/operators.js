@@ -39,4 +39,4 @@ console.log(now - 1991 > now - 2018); // output: true
 // Operator Precedence
 
 let x1, y;
-x1 = y = 25 - 10 - 5;
+x1 = y = 25 - 10 - 5; // x1 = y = 10, x1 = 10, y = 10
