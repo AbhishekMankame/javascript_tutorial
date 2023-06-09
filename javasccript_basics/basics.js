@@ -54,3 +54,5 @@ console.log(children);
 
 //Note: JavaScript has dynamic typing: We do not have to manually define the data type of the value stored in a variable. Instead, data types are determined automatically.
 
+//// value has types, NOT variable!!!!
+
