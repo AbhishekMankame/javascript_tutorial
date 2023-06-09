@@ -21,3 +21,6 @@ console.log(PI);
 
 let myFirstJob = 'Programmer';
 let myCurrentJob = 'Teacher';
+
+console.log(myFirstJob);
+console.log(myCurrentJob);
