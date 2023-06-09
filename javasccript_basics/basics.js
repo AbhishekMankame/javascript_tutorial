@@ -64,14 +64,14 @@ Multi
                 comment
 */
 
-let JavaScriptIsFun = true
+let JavaScriptIsFun = true;
 console.log(JavaScriptIsFun);
 
 // using typeof operator
 console.log(typeof true);
-console.log(typeof true);
-console.log(typeof true);
-console.log(typeof true);
-console.log(typeof true);
-console.log(typeof true);
+console.log(typeof JavaScriptIsFun);
+console.log(typeof age);
+console.log(typeof firstName);
+console.log(typeof firstNamed);
+console.log(typeof children);
 
