@@ -30,3 +30,5 @@ console.log(x);
 // Comparison operators --> it is used to produce boolean values
 console.log(ageJonas > ageSarah); // output: true
 console.log(ageSarah >= 18); // output: true
+
+const isFullAge = ageSarah >= 18;
