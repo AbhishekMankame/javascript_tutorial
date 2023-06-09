@@ -24,3 +24,6 @@ let myCurrentJob = 'Teacher';
 
 console.log('My first job was: ' + myFirstJob);
 console.log('My current job is: ' + myCurrentJob);
+
+
+// Primitive data types in Javascript
