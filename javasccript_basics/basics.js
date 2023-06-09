@@ -10,5 +10,6 @@ console.log(firstName);
 console.log(firstName);
 
 //let a& b = 'AB'; --> This one gives syntax error
+// only $ and _ are the special symnols which are allowed in JavaScript
 
 
