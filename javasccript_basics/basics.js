@@ -98,5 +98,7 @@ const birthYear = 1991;
 // Note: we cannot even declare empty const variable
 //const job1;
 
+// let is block scope and var is function scope
+
 var job2 = 'teacher';
 job2 = 'doctor';
