@@ -102,3 +102,6 @@ const birthYear = 1991;
 
 var job2 = 'teacher';
 job2 = 'doctor';
+
+lastName = 'Mankame';
+console.log(lastName);
