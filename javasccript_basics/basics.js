@@ -42,3 +42,5 @@ let fullAge = true;
 console.log(fullAge);
 console.log(!fullAge);
 
+// 4. Undefined: Value taken by a variable that is not yet defined ('empty value')
+
