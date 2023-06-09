@@ -48,3 +48,5 @@ console.log(children);
 
 // 5. Null: Also means'empty value'
 
+//6. Symbol(ES2015): Value that is unique and cannot be changed [Not useful for now]
+
