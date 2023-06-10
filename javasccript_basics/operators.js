@@ -201,3 +201,5 @@ console.log(Boolean(NaN));
 console.log(Boolean({}));
 console.log(Boolean(5));
 console.log(Boolean(`Jonas`));
+
+// When does javascript does the tyoe cohercion to booleans --> 
