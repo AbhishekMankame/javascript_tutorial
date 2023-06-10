@@ -166,3 +166,5 @@ console.log(Number('Jonas')); // output: NaN --> Not a Number
 console.log(typeof (NaN));
 
 console.log(String(23), 23);
+
+// Javascript can only convert to string, number and boolean
