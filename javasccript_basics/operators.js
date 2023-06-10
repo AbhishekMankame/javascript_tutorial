@@ -165,4 +165,4 @@ console.log(Number('Jonas')); // output: NaN --> Not a Number
 
 console.log(typeof (NaN));
 
-console.log(String(23));
+console.log(String(23), 23);
