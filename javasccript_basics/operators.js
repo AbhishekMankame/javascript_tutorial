@@ -171,3 +171,4 @@ console.log(String(23), 23);
 // we cannot conver something to undefine and null
 
 // Type cohersion
+// Type cohersion basically happens whenever an operator is dealing with two values that have two different types
