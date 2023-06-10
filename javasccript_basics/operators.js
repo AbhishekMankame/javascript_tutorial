@@ -153,3 +153,4 @@ if (BMIMark > BMIJohn) {
 }
 
 // Type Conversion and Coercion
+// Type Conversion when we manually convert from one type to another
