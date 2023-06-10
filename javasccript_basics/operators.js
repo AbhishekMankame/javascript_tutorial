@@ -184,3 +184,4 @@ console.log('23' / '2'); // output: 11.5
 let n = '1' + 1;
 n = n - 1;
 console.log(n); // output: 10
+console.log(2 + 3 + 4 + '5'); // output: 95
