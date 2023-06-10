@@ -108,3 +108,7 @@ const age2 = 15;
 if (age2 >= 18) {
     console.log('Sarah can start driving license 🚗 ');
 }
+else {
+    const yearsLeft = 18 - age2;
+    console.log()
+}
