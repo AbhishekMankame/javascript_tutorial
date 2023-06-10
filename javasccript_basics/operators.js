@@ -172,3 +172,5 @@ console.log(String(23), 23);
 
 // Type cohersion
 // Type cohersion basically happens whenever an operator is dealing with two values that have two different types, then javascript behind the scenes converts one of the values to match the other value's type
+
+console.log('I am ' + 23 + ' years old');
