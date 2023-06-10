@@ -123,3 +123,4 @@ if (birthYear2 <= 2000) {
 else {
     century = 21;
 }
+console.log(century);
