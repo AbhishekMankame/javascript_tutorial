@@ -115,7 +115,7 @@ else {
 
 // if else statements are called as control structures
 
-const birthYear2 = 1998;
+const birthYear2 = 2012;
 let century;
 if (birthYear2 <= 2000) {
     century = 20;
