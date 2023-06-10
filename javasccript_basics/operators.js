@@ -80,3 +80,4 @@ console.log(abhishek);
 
 // Template Literals
 const jonasNew = `I'm $(firstName3)`
+console.log(jonasNew);
