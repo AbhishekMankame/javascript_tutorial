@@ -93,3 +93,5 @@ lines'); // It only wors due to bug in the language
 console.log(`String with
 multiple
 lines`);
+
+// Taking Decisions: if / elso statements
