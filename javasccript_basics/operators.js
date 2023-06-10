@@ -179,3 +179,4 @@ console.log('23' - '10' - 3); // output: 10, here strings are converted to numbe
 console.log('23' + '10' + 3); // output: 23103, here the plus operator triggers the string coer
 
 console.log('23' * '2'); // output: 46
+console.log('23' / '2'); // output: 11.5
