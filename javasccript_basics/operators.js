@@ -156,3 +156,6 @@ if (BMIMark > BMIJohn) {
 // Type Conversion when we manually convert from one type to another
 
 // Type cohersion is when javascript automatically converts types behind the scenes for us
+
+const inputYear = '1991';
+console.log(inputYear + 18); // output: 199118
