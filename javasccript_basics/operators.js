@@ -97,8 +97,8 @@ lines`);
 // Taking Decisions: if / elso statements
 
 // if - else statements
-const age1 = 19;
-const isOldEnough = age1 >= 18;
+const age2 = 19;
+const isOldEnough = age2 >= 18;
 
 if (isOldEnough) {
     console.log('Sarah can start driving license 🚗 ');
