@@ -169,3 +169,5 @@ console.log(String(23), 23);
 
 // Javascript can only convert to string, number and boolean
 // we cannot conver something to undefine and null
+
+// Type cohersion
