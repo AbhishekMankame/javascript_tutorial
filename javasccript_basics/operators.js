@@ -85,3 +85,4 @@ console.log(jonasNew);
 consol.log(`Just a regular string...`);
 
 // Multiline Strings
+console.log('String with \n');
