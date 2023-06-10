@@ -52,18 +52,18 @@ console.log(ageJonas, ageSarah, averageAge);
 // const massJohn = 92;
 // const heightJohn = 1.95;
 
-const massMark = 95;
-const heightMark = 1.88;
-const massJohn = 85;
-const heightJohn = 1.76;
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 
-// Calcualting the BMI of Mark and John
-// BMI = mass / height ** 2 = mass / (height * height)
+// // Calcualting the BMI of Mark and John
+// // BMI = mass / height ** 2 = mass / (height * height)
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-const MarkHigherBMI = BMIMark > BMIJohn;
-console.log(BMIMark, BMIJohn, MarkHigherBMI);
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const MarkHigherBMI = BMIMark > BMIJohn;
+// console.log(BMIMark, BMIJohn, MarkHigherBMI);
 
 
 // Strings and Template Literals
@@ -124,3 +124,5 @@ else {
     century = 21;
 }
 console.log(century);
+
+// Coding Challenge #2
