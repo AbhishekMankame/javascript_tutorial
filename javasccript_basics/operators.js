@@ -79,5 +79,5 @@ const abhishek = "I'm " + firstName3 + ', a ' + (year1 - birthYear1) + ' years o
 console.log(abhishek);
 
 // Template Literals
-const jonasNew = `I'm $(firstName3)`
+const jonasNew = `I'm ${firstName3}`
 console.log(jonasNew);
