@@ -88,3 +88,8 @@ console.log(`Just a regular string...`);
 console.log('String with \n\
 multiple \n\
 lines'); // It only wors due to bug in the language
+
+// Multilne strings using template literals
+console.log(`String with
+multiple
+lines`);
