@@ -161,4 +161,4 @@ const inputYear = '1991';
 console.log(inputYear + 18); // output: 199118
 console.log(Number(inputYear) + 18); // output: 2009
 
-console.log(Number('Jonsa')); // output: NaN --> Not a Number
+console.log(Number('Jonas')); // output: NaN --> Not a Number
