@@ -87,4 +87,4 @@ console.log(`Just a regular string...`);
 // Multiline Strings
 console.log('String with \n\
 multiple \n\
-lines');
+lines'); // It only wors due to bug in the language
