@@ -110,5 +110,5 @@ if (age2 >= 18) {
 }
 else {
     const yearsLeft = 18 - age2;
-    console.log(yearsLeft);
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
 }
