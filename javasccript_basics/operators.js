@@ -103,3 +103,8 @@ lines`);
 // if (isOldEnough) {
 //     console.log('Sarah can start driving license 🚗 ');
 // }
+
+const age2 = 15;
+if (age2 >= 18) {
+    console.log('Sarah can start driving license 🚗 ');
+}
