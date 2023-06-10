@@ -200,3 +200,4 @@ console.log(Boolean(null));
 console.log(Boolean(NaN));
 console.log(Boolean({}));
 console.log(Boolean(5));
+console.log(Boolean(`Jonas`));
