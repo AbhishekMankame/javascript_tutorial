@@ -114,3 +114,5 @@ else {
 }
 
 // if else statements are called as control structures
+
+const birthYear2 = 1991;
