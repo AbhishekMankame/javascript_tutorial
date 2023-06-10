@@ -154,3 +154,5 @@ if (BMIMark > BMIJohn) {
 
 // Type Conversion and Coercion
 // Type Conversion when we manually convert from one type to another
+
+// Type cohersion is when javascript automatically converts types behind the scenes for us
