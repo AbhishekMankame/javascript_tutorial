@@ -208,3 +208,5 @@ console.log(Boolean(`Jonas`));
 // 2. During logical context
 
 // Type coercion in if else statements
+
+const money = 0;
