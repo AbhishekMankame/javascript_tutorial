@@ -210,3 +210,6 @@ console.log(Boolean(`Jonas`));
 // Type coercion in if else statements
 
 const money = 0;
+if (money) {
+    console.log("Don't spend it all");
+}
