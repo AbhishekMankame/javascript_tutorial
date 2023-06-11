@@ -217,7 +217,7 @@ else {
     console.log("You should get a job!");
 }
 
-let abcdefg;
+let abcdefg = 123;
 if (abcdefg) {
     console.log('YAY! Height is defined');
 }
