@@ -227,3 +227,6 @@ else {
 
 // Ewquality Operators: == vs ===
 const age3 = 18;
+if (age3 === 18) {
+
+}
