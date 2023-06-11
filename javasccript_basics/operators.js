@@ -226,3 +226,4 @@ else {
 }
 
 // Ewquality Operators: == vs ===
+const age3 = 18;
