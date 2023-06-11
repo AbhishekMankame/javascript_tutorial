@@ -221,3 +221,6 @@ let abcdefg;
 if (abcdefg) {
     console.log('YAY! Height is defined');
 }
+else {
+    console.log('Height is UNDEFINED');
+}
