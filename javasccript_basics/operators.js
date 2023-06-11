@@ -206,3 +206,5 @@ console.log(Boolean(`Jonas`));
 // When does javascript does the tyoe cohercion to booleans --> In 2 scenarios
 // 1. When we use logical operators
 // 2. During logical context
+
+// Type coercion in if else statements
