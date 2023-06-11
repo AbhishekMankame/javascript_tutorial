@@ -224,3 +224,5 @@ if (abcdefg) {
 else {
     console.log('Height is UNDEFINED');
 }
+
+// Ewquality Operators: == vs ===
