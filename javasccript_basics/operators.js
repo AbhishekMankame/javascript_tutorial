@@ -216,3 +216,8 @@ if (money) {
 else {
     console.log("You should get a job!");
 }
+
+let abcdefg;
+if (abcdefg) {
+    console.log('YAY! Height is defined');
+}
