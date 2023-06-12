@@ -337,3 +337,6 @@ else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
 else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
     console.log("Both win the trophy 🏆");
 }
+else {
+    console.log("No one wins the trophy 😭");
+}
