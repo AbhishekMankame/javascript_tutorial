@@ -242,3 +242,4 @@ if (age3 == 18) {
 // Prompt fuction in javascript
 
 const favourite = prompt("What's your favourite number?");
+console.log(favourite);
