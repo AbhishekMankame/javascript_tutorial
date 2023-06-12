@@ -275,6 +275,6 @@ if (favourite !== 23) console.log('Why not 23?');
 // NOT operator has more precedence than AND and OR operators
 
 const hasDriverLicense = true; // A
-const hasGoodVision = true; // B
+const hasGoodVision = false; // B
 
 console.log(hasDriverLicense && hasGoodVision); // AND operator
