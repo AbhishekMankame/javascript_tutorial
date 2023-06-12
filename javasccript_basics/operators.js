@@ -241,13 +241,13 @@ if (age3 == 18) {
 
 // Prompt fuction in javascript
 
-// const favourite = prompt("What's your favourite number?");
-// console.log(favourite); // The output is a string
-// console.log(typeof (favourite));
-
-const favourite = Number(prompt("What's your favourite number?"));
+const favourite = prompt("What's your favourite number?");
 console.log(favourite); // The output is a string
 console.log(typeof (favourite));
+
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite); // The output is a string
+// console.log(typeof (favourite));
 
 if (favourite == 23) {  // here the type coercion happens '23' == 23
     console.log('Cool! 23 is an amazing number!');
