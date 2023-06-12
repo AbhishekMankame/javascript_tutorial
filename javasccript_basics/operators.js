@@ -301,7 +301,7 @@ const isTired = true; // C
 console.log(hasDriverLicense || hasGoodVision || isTired);
 console.log(hasDriverLicense && hasGoodVision && isTired);
 
-if (hasDriverLicense && hasGoodVision) {
+if (hasDriverLicense && hasGoodVision && !isTired) {
     console.log('Sarah is able to drive');
 }
 else {
