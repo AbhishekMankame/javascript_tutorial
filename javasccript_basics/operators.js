@@ -331,7 +331,7 @@ console.log(scoreDolphins, scoreKoalas);
 if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
     console.log("Dolphins win the trophy 🏆");
 }
-else if (scoreKoalas > scoreDolphins) {
+else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
     console.log("Koalas win the trophy 🏆");
 }
 else if (scoreDolphins === scoreKoalas) {
