@@ -298,3 +298,4 @@ else {
 }
 
 const isTired = true; // C
+console.log(hasDriverLicense || hasGoodVision || isTired);
