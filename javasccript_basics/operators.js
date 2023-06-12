@@ -347,4 +347,5 @@ switch (day) {
     case 'monday': // this is basically writing as day === 'monday'
         console.log('Plan course structure');
         console.log('Go to coding meetup');
+        break;
 }
