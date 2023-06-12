@@ -307,3 +307,5 @@ if (hasDriverLicense && hasGoodVision && !isTired) {
 else {
     console.log('Someone else should drive...');
 }
+
+// Coding Challenge #3
