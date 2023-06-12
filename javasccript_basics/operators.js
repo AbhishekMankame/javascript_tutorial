@@ -282,3 +282,7 @@ console.log(hasDriverLicense || hasGoodVision); // OR operator
 console.log(!hasDriverLicense); //NOT operator
 
 const shouldDrive = hasDriverLicense && hasGoodVision;
+
+if (shouldDrive) {
+    console.log('Sarah is able to drive');
+}
