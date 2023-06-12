@@ -232,7 +232,7 @@ if (age3 === 18) {
 }
 
 if (age3 == 18) {
-    console.log("You just became an adult :D");
+    console.log("You just became an adult :D (loose)");
 }
 
 // === is called as strict equality operator, it does not perform type coercion
