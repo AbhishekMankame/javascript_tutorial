@@ -278,4 +278,4 @@ const hasDriverLicense = true; // A
 const hasGoodVision = false; // B
 
 console.log(hasDriverLicense && hasGoodVision); // AND operator
-console.log(hasDriverLicense || hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision); // OR operator
