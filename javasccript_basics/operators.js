@@ -240,3 +240,5 @@ if (age3 == 18) {
 // Always use strict equality operator
 
 // Prompt fuction in javascript
+
+prompt("What's your favourite number?");
