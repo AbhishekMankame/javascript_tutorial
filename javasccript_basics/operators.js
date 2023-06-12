@@ -296,3 +296,5 @@ if (hasDriverLicense && hasGoodVision) {
 else {
     console.log('Someone else should drive');
 }
+
+const isTired = true; // C
