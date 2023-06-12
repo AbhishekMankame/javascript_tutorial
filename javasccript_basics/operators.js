@@ -340,3 +340,5 @@ else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >=
 else {
     console.log("No one wins the trophy 😭");
 }
+
+// The switch statement
