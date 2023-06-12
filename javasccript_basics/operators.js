@@ -342,3 +342,4 @@ else {
 }
 
 // The switch statement
+const day = 'monday';
