@@ -268,3 +268,5 @@ else {
 }
 
 if (favourite !== 23) console.log('Why not 23?');
+
+// Boolean Logic
