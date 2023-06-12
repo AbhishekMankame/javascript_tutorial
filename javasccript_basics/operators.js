@@ -290,12 +290,12 @@ console.log(!hasDriverLicense); //NOT operator
 //     console.log('Someone else should drive');
 // }
 
-if (hasDriverLicense && hasGoodVision) {
-    console.log('Sarah is able to drive');
-}
-else {
-    console.log('Someone else should drive');
-}
+// if (hasDriverLicense && hasGoodVision) {
+//     console.log('Sarah is able to drive');
+// }
+// else {
+//     console.log('Someone else should drive');
+// }
 
 const isTired = true; // C
 console.log(hasDriverLicense || hasGoodVision || isTired);
