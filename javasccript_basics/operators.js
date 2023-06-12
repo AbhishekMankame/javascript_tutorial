@@ -248,3 +248,7 @@ console.log(typeof (favourite));
 if (favourite == 23) {  // here the type coercion happens '23' == 23
     console.log('Cool! 23 is an amazing number!');
 }
+
+if (favourite === 23) {
+    console.log('Cool! 23 is an amazing number!');
+}
