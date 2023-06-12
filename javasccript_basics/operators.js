@@ -264,5 +264,5 @@ else if (favourite === 9) {
     console.log('9 is also a cool number');
 }
 else {
-    console.log('The number is not 23 or 7');
+    console.log('The number is not 23 or 7 or 9');
 }
