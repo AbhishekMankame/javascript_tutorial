@@ -256,6 +256,10 @@ if (favourite == 23) {  // here the type coercion happens '23' == 23
 if (favourite === 23) { // 23 === 23
     console.log('Cool! 23 is an amazing number!');
 }
+
+else if (favourite === 7) {
+    console.log('7 is also a cool number');
+}
 else {
     console.log('The input is of different data type');
 }
