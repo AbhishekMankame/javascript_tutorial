@@ -228,6 +228,10 @@ else {
 // Ewquality Operators: == vs ===
 const age3 = 18;
 if (age3 === 18) {
+    console.log("You just became an adult :D (strict)");
+}
+
+if (age3 == 18) {
     console.log("You just became an adult :D");
 }
 
