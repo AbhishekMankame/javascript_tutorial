@@ -300,3 +300,10 @@ console.log(!hasDriverLicense); //NOT operator
 const isTired = true; // C
 console.log(hasDriverLicense || hasGoodVision || isTired);
 console.log(hasDriverLicense && hasGoodVision && isTired);
+
+if (hasDriverLicense && hasGoodVision) {
+    console.log('Sarah is able to drive');
+}
+else {
+    console.log('Someone else should drive');
+}
