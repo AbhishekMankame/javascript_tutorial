@@ -322,3 +322,5 @@ else if (scoreKoalas > scoreDolphins) {
 else if (scoreDolphins === scoreKoalas) {
     console.log("Both win the trophy 🏆");
 }
+
+// BONUS 1
