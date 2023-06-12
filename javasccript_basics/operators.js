@@ -344,7 +344,7 @@ else {
 // The switch statement
 const day = 'monday';
 switch (day) {
-    case 'monday':
+    case 'monday': // this is basically writing as day === 'monday'
         console.log('Plan course structure');
         console.log('Go to coding meetup');
 }
