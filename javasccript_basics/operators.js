@@ -276,3 +276,5 @@ if (favourite !== 23) console.log('Why not 23?');
 
 const hasDriverLicense = true; // A
 const hasGoodVision = true; // B
+
+console.log(hasDriverLicense && hasGoodVision); // AND operator
