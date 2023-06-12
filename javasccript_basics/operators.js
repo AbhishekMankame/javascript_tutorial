@@ -324,8 +324,8 @@ else {
 // }
 
 // BONUS 1
-const scoreDolphins = (97 + 112 + 101) / 3;
-const scoreKoalas = (109 + 95 + 123) / 3;
+const scoreDolphins = (97 + 112 + 91) / 3;
+const scoreKoalas = (109 + 95 + 96) / 3;
 console.log(scoreDolphins, scoreKoalas);
 
 if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
