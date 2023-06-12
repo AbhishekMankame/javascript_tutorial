@@ -261,5 +261,5 @@ else if (favourite === 7) {
     console.log('7 is also a cool number');
 }
 else {
-    console.log('The input is of different data type');
+    console.log('The number is not 23 or 7');
 }
