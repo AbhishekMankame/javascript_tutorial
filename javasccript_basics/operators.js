@@ -237,3 +237,4 @@ if (age3 == 18) {
 
 // === is called as strict equality operator, it does not perform type coercion
 // == is called as loose equality operator, it performs type coercion
+// Always use strict equality operator
