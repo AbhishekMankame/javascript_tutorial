@@ -343,3 +343,7 @@ else {
 
 // The switch statement
 const day = 'monday';
+switch (day) {
+    case 'monday':
+        console.log('Plan course structure');
+}
