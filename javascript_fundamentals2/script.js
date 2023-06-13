@@ -7,3 +7,5 @@ const passTest = true;
 
 if (passTest) hasDriverLicense = true; // this will not throw any error in normal mode, but in strict mode it will throw an error
 if (hasDriversLicense) console.log('I can drive :D');
+
+// alt + closing bracket will be used to toggle the comment in the copilot 
