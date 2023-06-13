@@ -405,3 +405,5 @@ else {
     drink2 = 'water 💧';
 }
 console.log(drink2);
+
+console.log(`I like to drink ${age4 => 18 ? 'wine 🍷' : 'water 💧'}`);
