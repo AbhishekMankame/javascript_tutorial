@@ -401,3 +401,6 @@ let drink2;
 if (age4 >= 18) {
     drink2 = 'wine 🍷';
 }
+else {
+    drink2 = 'water 💧';
+}
