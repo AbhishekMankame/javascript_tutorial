@@ -368,6 +368,8 @@ switch (day) {
 }
 
 // Above switch statement can be written as if else statement
-if (day == `monday`) {
+if (day === `monday`) {
     console.log('Plan course structure')
 }
+else if (day === 'tuesday') {
+    console.log(`Prepare theory videos`);
