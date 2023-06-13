@@ -396,3 +396,5 @@ age4 >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to d
 
 const drink = age4 >= 18 ? 'wine 🍷' : 'water 💧';
 console.log(drink);
+
+let drink2;
