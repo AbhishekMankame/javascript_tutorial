@@ -388,3 +388,4 @@ else {
 }
 
 // Statements and Expressions
+// Expressions are pieces of code tbat always produce a value
