@@ -392,4 +392,6 @@ else {
 
 // The conditional (ternary operator)
 const age4 = 23;
-age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 💧');
+age4 >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 💧');
+
+age4 >= 18 ? console.log('wine 🍷') : console.log('water 💧');
