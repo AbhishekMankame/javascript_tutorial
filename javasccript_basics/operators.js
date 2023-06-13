@@ -418,4 +418,4 @@ console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bil
 
 // How to use modern JavaScript today
 // 1. During development: Simply use the latest Googlr Chrome!
-// During production: Use Babel to transpile our code into an older version of JavaScript
+// During production: Use Babel to transpile our code into an older version of JavaScript and polyfil our code (converting back to ES5 to ensure the browser compatibility for all the users)
