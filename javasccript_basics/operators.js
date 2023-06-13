@@ -377,3 +377,6 @@ else if (day === 'tuesday') {
 else if (day === 'wednesday' || day === 'thursday') {
     console.log('write code examples');
 }
+else if (day === 'friday') {
+    console.log('Record videos');
+}
