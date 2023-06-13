@@ -406,4 +406,6 @@ else {
 }
 console.log(drink2);
 
-console.log(`I like to drink ${age4 => 18 ? 'wine 🍷' : 'water 💧'}`);
+console.log(`I like to drink ${age4 >= 18 ? 'wine 🍷' : 'water 💧'}`);
+
+// Ternary operator is not at all a replacement for an if else statement, we still need if else statement all the time
