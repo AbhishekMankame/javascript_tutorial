@@ -417,3 +417,4 @@ const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 
 // How to use modern JavaScript today
+// 1. During development: Simply use the latest Googlr Chrome!
