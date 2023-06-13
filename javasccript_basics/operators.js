@@ -398,3 +398,6 @@ const drink = age4 >= 18 ? 'wine 🍷' : 'water 💧';
 console.log(drink);
 
 let drink2;
+if (age4 >= 18) {
+    drink2 = 'wine 🍷';
+}
