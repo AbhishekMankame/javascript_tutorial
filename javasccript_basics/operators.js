@@ -366,3 +366,5 @@ switch (day) {
         console.log('Not a valid day');
 
 }
+
+// Above switch statement can be written as if else statement
