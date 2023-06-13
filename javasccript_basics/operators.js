@@ -383,3 +383,6 @@ else if (day === 'friday') {
 else if (day === 'saturday' || day === 'sunday') {
     console.log('Enjoy the weekend :D');
 }
+else {
+    console.log('Not a valid day');
+}
