@@ -412,3 +412,5 @@ console.log(`I like to drink ${age4 >= 18 ? 'wine 🍷' : 'water 💧'}`);
 // Ternary operator is perfect when we need to take a quick decision based on a condition
 
 // Coding Challenge #4
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
