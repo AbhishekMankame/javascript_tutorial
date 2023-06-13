@@ -391,8 +391,8 @@ else {
 // Expressions are pieces of code tbat always produce a value
 
 // The conditional (ternary operator)
-const age4 = 23;
+const age4 = 16;
 age4 >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 💧');
 
-const drink = age4 >= 18 ? console.log('wine 🍷') : console.log('water 💧');
+const drink = age4 >= 18 ? 'wine 🍷' : 'water 💧';
 console.log(drink);
