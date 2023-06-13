@@ -386,3 +386,5 @@ else if (day === 'saturday' || day === 'sunday') {
 else {
     console.log('Not a valid day');
 }
+
+// Statements and Expressions
