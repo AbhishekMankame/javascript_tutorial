@@ -373,3 +373,4 @@ if (day === `monday`) {
 }
 else if (day === 'tuesday') {
     console.log(`Prepare theory videos`);
+}
