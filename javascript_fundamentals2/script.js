@@ -110,3 +110,4 @@ const yearsUntilRetirement = birthYear => {
     const retirement = 65 - age;
     return retirement;
 }
+console.log(yearsUntilRetirement(1991));
