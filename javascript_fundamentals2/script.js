@@ -90,3 +90,5 @@ console.log(age1);
 const calcAge2 = function (birthYear) {  // anonymous function
     return 2037 - birthYear;
 }
+
+// Anonymous function is basically an expression, which produces a value, and we can store that value in a variable
