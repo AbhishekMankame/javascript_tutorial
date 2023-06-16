@@ -119,3 +119,6 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 }
 console.log(yearsUntilRetirement(1991, 'Jonas'));
 console.log(yearsUntilRetirement(1980, 'Bob'));
+
+
+// one of the main differences between arrow function and function expression is that arrow function does not get a 'this' keyword
