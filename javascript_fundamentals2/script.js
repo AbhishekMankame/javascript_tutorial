@@ -48,3 +48,8 @@ function logger() {         // The code inside the curly braces is called functi
 logger(); // calling / running / invoking the function
 logger();
 logger();
+
+function fruitProcessor(apples, oranges) {
+    console.log(apples, oranges);
+    console.log(typeof apples, typeof oranges);
+}
