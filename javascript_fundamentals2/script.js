@@ -39,3 +39,8 @@ if (hisDriversLicense) console.log('I can drive :D');
 // Finctions
 // The building blocks of real world JavaScript applications is functions
 // Function is a piece of code that we can reuse over and over again
+
+// Function declaration
+function logger() {         // The code inside the curly braces is called function body
+
+}
