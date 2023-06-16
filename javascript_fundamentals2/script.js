@@ -92,3 +92,8 @@ const calcAge2 = function (birthYear) {  // anonymous function
 }
 
 // Anonymous function is basically an expression, which produces a value, and we can store that value in a variable
+
+const age2 = calcAge2(1991);
+console.log(age1, age2);
+
+// One of the differences between function declaration and function expression is that we can call function declaration before it is declared in the code, but we cannot do the same with function expression
