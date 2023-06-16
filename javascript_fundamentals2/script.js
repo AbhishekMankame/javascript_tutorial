@@ -74,7 +74,11 @@ console.log(logg);
 
 // Function declaration vs function expression
 
+// function calcAge1(birthYear) {
+//     const age = 2037 - birthYear;
+//     return age;
+// }
+
 function calcAge1(birthYear) {
-    const age = 2037 - birthYear;
-    return age;
-}
+    return 2037 - birthYear;
+} 
