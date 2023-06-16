@@ -84,3 +84,4 @@ function calcAge1(birthYear) {  // birthYear is a parameter
 }
 
 const age1 = calcAge1('1991'); // 1991 is an agruement
+console.log(age1);
