@@ -104,3 +104,5 @@ console.log(age1, age2);
 const calcAge3 = birthYear => 2037 - birthYear; // arrow function
 const age3 = calcAge3(1991);
 console.log(age3);
+
+const yearsUntilRetirement = birthYear => 
