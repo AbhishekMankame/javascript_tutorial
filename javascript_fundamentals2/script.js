@@ -99,3 +99,4 @@ console.log(age1, age2);
 // One of the differences between function declaration and function expression is that we can call function declaration before it is declared in the code, but we cannot do the same with function expression
 
 // Arrow function
+// Arrow function is a special form of function expression, and is always anonymous
