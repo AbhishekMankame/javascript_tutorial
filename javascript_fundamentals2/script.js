@@ -102,3 +102,5 @@ console.log(age1, age2);
 // Arrow function is a special form of function expression, and is always anonymous
 
 const calcAge3 = birthYear => 2037 - birthYear; // arrow function
+const age3 = calcAge3(1991);
+console.log(age3);
