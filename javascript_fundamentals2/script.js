@@ -47,3 +47,4 @@ function logger() {         // The code inside the curly braces is called functi
 
 logger(); // calling / running / invoking the function
 logger();
+logger();
