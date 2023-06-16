@@ -71,3 +71,5 @@ console.log(appleOrangeJuice);
 
 const logg = logger();
 console.log(logg);
+
+// Function declaration vs function expression
