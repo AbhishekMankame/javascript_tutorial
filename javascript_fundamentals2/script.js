@@ -52,4 +52,6 @@ logger();
 function fruitProcessor(apples, oranges) {
     console.log(apples, oranges);
     console.log(typeof apples, typeof oranges);
+    const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+    return juice;
 }
