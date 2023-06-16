@@ -33,3 +33,5 @@ const passTest = true;
 
 if (passTest) hasDriversLicense = true;
 if (hisDriversLicense) console.log('I can drive :D');
+
+// strict mode reserves some keywords for future JavaScript versions such as interface, private, protected, package, static, etc.
