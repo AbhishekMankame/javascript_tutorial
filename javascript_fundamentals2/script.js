@@ -42,5 +42,7 @@ if (hisDriversLicense) console.log('I can drive :D');
 
 // Function declaration
 function logger() {         // The code inside the curly braces is called function body
-
+    console.log('My name is Abhishek');
 }
+
+logger(); // calling / running / invoking the function
