@@ -211,3 +211,5 @@ console.log(friends[friends.length - 1]) // last element of the array
 // In JavaScript only primitive values are immutable, but arrays and objects are mutable
 friends[2] = 'Jay';
 console.log(friends);
+
+// Note: We can replace the elements of array, but we cannot replace the entire array
