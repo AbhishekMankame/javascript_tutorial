@@ -205,3 +205,4 @@ console.log(friends[1]);
 console.log(friends[2]);
 
 console.log(friends.length); // length property
+console.log(friends.length - 1) // last element of the array
