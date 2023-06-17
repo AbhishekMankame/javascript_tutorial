@@ -112,13 +112,13 @@ console.log(age3);
 // }
 // console.log(yearsUntilRetirement(1991));
 
-const yearsUntilRetirement = (birthYear, firstName) => {
-    const age = 2037 - birthYear;
-    const retirement = 65 - age;
-    return `${firstName} retires in ${retirement} years.`;
-}
-console.log(yearsUntilRetirement(1991, 'Jonas'));
-console.log(yearsUntilRetirement(1980, 'Bob'));
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//     const age = 2037 - birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} retires in ${retirement} years.`;
+// }
+// console.log(yearsUntilRetirement(1991, 'Jonas'));
+// console.log(yearsUntilRetirement(1980, 'Bob'));
 
 
 // one of the main differences between arrow function and function expression is that arrow function does not get a 'this' keyword
@@ -138,3 +138,8 @@ function fruitProcessor(apples, oranges) {
 console.log(fruitProcessor(2, 3));
 
 // Reviewing functions
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = 2037 - birthYear;
+    const retirement = 65 - age;
+    return `${firstName} retires in ${retirement} years.`;
+}
