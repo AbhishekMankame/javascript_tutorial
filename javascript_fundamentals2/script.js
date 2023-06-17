@@ -171,5 +171,7 @@ console.log(scoreDolphins, scoreKoalas);
 
 // Function checkWinner
 const checkWinner = function (avgDolphins, avgKoalas) {
+    if (avgDolphins >= 2 * avgKoalas) {
 
+    }
 })
