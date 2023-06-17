@@ -213,3 +213,7 @@ friends[2] = 'Jay';
 console.log(friends);
 
 // Note: We can replace the elements of array, but we cannot replace the entire array --> we will get assignment to constant variable error
+
+// different data types can be stored in an array
+const firstName = 'Jonas';
+const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
