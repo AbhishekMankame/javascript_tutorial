@@ -206,3 +206,6 @@ console.log(friends[2]);
 
 console.log(friends.length); // length property
 console.log(friends[friends.length - 1]) // last element of the array
+
+// In JavaScript, we can mutate arrays even though they are const
+//
