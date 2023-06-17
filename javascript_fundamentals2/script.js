@@ -167,3 +167,4 @@ console.log(calcAverage(3, 4, 5));
 const scoreDolphins = calcAverage(44, 23, 71);
 
 const scoreKoalas = calcAverage(65, 54, 49);
+console.log(scoreDolphins, scoreKoalas);
