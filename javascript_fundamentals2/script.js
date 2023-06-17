@@ -196,3 +196,4 @@ const friend3 = 'Peter';
 // Two of the most important data structures in JavaScript are arrays and objects
 
 const friends = ['Micheal', 'Steven', 'Peter'];
+console.log(friends);
