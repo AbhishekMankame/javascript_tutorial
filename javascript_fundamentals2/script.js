@@ -145,6 +145,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
     const age = calcAge(birthYear);
     const retirement = 65 - age;
     if (retirement > 0) {
+        console.log(`${firstName} retires in ${retirement} years.`);
         return retirement;
     } else {
         return -1;
