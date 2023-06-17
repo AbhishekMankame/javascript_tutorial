@@ -197,3 +197,5 @@ const friend3 = 'Peter';
 
 const friends = ['Micheal', 'Steven', 'Peter'];
 console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2020);
