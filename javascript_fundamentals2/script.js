@@ -200,3 +200,4 @@ console.log(friends);
 
 const years = new Array(1991, 1984, 2008, 2020); // Created an array using array function
 console.log(years);
+console.log(friends[0]);
