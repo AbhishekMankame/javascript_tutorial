@@ -158,3 +158,6 @@ console.log(yearsUntilRetirement(1970, 'Mike'));
 
 
 // Coding challenge 5: CHALLENGE #1
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(3, 4, 5));
