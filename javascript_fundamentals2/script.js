@@ -208,4 +208,4 @@ console.log(friends.length); // length property
 console.log(friends[friends.length - 1]) // last element of the array
 
 // In JavaScript, we can mutate arrays even though they are const
-//
+// In JavaScript only primitive values are immutable, but arrays and objects are mutable
