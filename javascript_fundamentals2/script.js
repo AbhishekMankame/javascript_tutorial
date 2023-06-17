@@ -56,11 +56,11 @@ logger();
 //     return juice;
 // }
 
-function fruitProcessor(apples, oranges) {
-    console.log(typeof apples, typeof oranges);
-    const juice = `Juice with ${apples} apples and ${oranges} oranges`;
-    return juice;
-}
+// function fruitProcessor(apples, oranges) {
+//     console.log(typeof apples, typeof oranges);
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+//     return juice;
+// }
 
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
@@ -122,3 +122,14 @@ console.log(yearsUntilRetirement(1980, 'Bob'));
 
 
 // one of the main differences between arrow function and function expression is that arrow function does not get a 'this' keyword
+
+function cutFruitPieces(fruit) {
+
+}
+
+
+function fruitProcessor(apples, oranges) {
+    console.log(typeof apples, typeof oranges);
+    const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+    return juice;
+}
