@@ -148,6 +148,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
         console.log(`${firstName} retires in ${retirement} years.`);
         return retirement;
     } else {
+        console.log(`${firstName} has already reitred 🎉`);
         return -1;
     }
 }
