@@ -189,9 +189,9 @@ console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
 
 // Arrays
-const friend1 = 'Micheal';
-const friend2 = 'Steven';
-const friend3 = 'Peter';
+// const friend1 = 'Micheal';
+// const friend2 = 'Steven';
+// const friend3 = 'Peter';
 
 // Two of the most important data structures in JavaScript are arrays and objects
 
@@ -201,3 +201,5 @@ console.log(friends);
 const years = new Array(1991, 1984, 2008, 2020); // Created an array using array function
 console.log(years);
 console.log(friends[0]);
+console.log(friends[1]);
+console.log(friends[2]);
