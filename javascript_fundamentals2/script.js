@@ -163,3 +163,4 @@ const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
 
 // caluclate the average score for each team
+const scoreDolphins = calcAverage(44, 23, 71);
