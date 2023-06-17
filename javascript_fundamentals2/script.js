@@ -185,3 +185,5 @@ checkWinner(scoreDolphins, scoreKoalas);
 // test 2
 scoreDolphins = calcAverage(44, 23, 71);
 scoreKoalas = calcAverage(65, 54, 49);
+console.log(scoreDolphins, scoreKoalas);
+checkWinner(scoreDolphins, scoreKoalas);
