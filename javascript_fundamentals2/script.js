@@ -170,3 +170,6 @@ const scoreKoalas = calcAverage(65, 54, 49);
 console.log(scoreDolphins, scoreKoalas);
 
 // Function checkWinner
+const checkWinner = function (avgDolphins, avgKoalas) {
+
+})
