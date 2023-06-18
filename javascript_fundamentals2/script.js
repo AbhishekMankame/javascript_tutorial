@@ -229,3 +229,5 @@ const age4 = calcAge(years[0]);
 const age5 = calcAge(years[1]);
 const age6 = calcAge(years[years.length - 1]);
 console.log(age4, age5, age6);
+
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
