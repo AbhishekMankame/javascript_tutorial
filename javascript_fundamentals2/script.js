@@ -326,6 +326,22 @@ console.log(bills, tips, totals);
 // // "Jonas has 3 friends, and his best friend is calle d Micheal"
 // console.log(`${jonas1.firstName} has ${jonas1.friends.length} friends, and his best friend is called ${jonas1.friends[0]}`);
 
+// const jonas1 = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job: 'teacher',
+//     friends: ['Micheal', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+//     calcAge: function (birthYear) {
+//         return 2037 - birthYear;
+//     }
+// };
+
+// console.log(jonas1.calcAge(1991));
+// console.log(jonas1['calcAge'](1991));
+
+// Alternate and efficient way by using 'this' keyword
 const jonas1 = {
     firstName: 'Jonas',
     lastName: 'Schmedtmann',
@@ -337,3 +353,6 @@ const jonas1 = {
         return 2037 - birthYear;
     }
 };
+
+console.log(jonas1.calcAge(1991));
+console.log(jonas1['calcAge'](1991));
