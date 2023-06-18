@@ -235,3 +235,4 @@ console.log(ages);
 
 // Basci array operations (methods)
 friends.push('Jay'); // push method adds elements to the end of the array
+console.log(friends);
