@@ -301,3 +301,5 @@ console.log(jonas1['lastName']); // bracket notation
 const nameKey = 'Name';
 console.log(jonas1['first' + nameKey]);
 console.log(jonas1['last' + nameKey]);
+
+// In bracket notation, we can put any expression that we want
