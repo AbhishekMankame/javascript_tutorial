@@ -234,5 +234,5 @@ const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length -
 console.log(ages);
 
 // Basci array operations (methods)
-friends.push('Jay'); // push method adds elements to the end of the array
+friends.push('Jay'); // push method adds elements to the end of the array, also returns the length of the new array
 console.log(friends);
