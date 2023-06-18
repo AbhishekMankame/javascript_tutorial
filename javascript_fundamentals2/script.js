@@ -250,3 +250,4 @@ console.log(popped);
 
 friends.shift(); // shift method removes the first element of the array, also returns the removed element
 console.log(friends);
+console.log(friends.indexOf('Steven')); // indexOf method returns the index of the element in the array
