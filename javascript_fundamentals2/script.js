@@ -252,3 +252,5 @@ friends.shift(); // shift method removes the first element of the array, also re
 console.log(friends);
 console.log(friends.indexOf('Steven')); // indexOf method returns the index of the element in the array
 console.log(friends.indexOf('Bob')); // returns -1 if the element is not in the array
+
+console.log(friends.includes('Steven'));
