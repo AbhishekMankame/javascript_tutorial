@@ -277,3 +277,4 @@ console.log(totals);
 console.log(bills, tips, totals);
 
 // Introduction to objects
+// Objects are another fundamental data structure in JavaScript
