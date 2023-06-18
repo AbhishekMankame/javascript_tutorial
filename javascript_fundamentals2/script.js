@@ -303,3 +303,4 @@ console.log(jonas1['first' + nameKey]);
 console.log(jonas1['last' + nameKey]);
 
 // In bracket notation, we can put any expression that we want
+// In dot notation we need to use the exact or final property name and not a computed property name
