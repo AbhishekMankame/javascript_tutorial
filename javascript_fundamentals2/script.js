@@ -309,4 +309,4 @@ console.log(jonas1['last' + nameKey]);
 // we can use the dot notation when we know the property name in advance
 // we can use the bracket notation when we don't know the property name in advance
 
-prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job and friends')
+const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job and friends')
