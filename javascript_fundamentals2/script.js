@@ -278,3 +278,5 @@ console.log(bills, tips, totals);
 
 // Introduction to objects
 // Objects are another fundamental data structure in JavaScript
+// In objects, we can define key value pairs
+// In objects we use curly braces
