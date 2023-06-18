@@ -288,5 +288,6 @@ const jonas1 = {
     job: 'teacher',
     friends: ['Micheal', 'Peter', 'Steven']
 }; // object literal syntax
+// In object the order of the elements does not matter
 
 console.log(jonas1);
