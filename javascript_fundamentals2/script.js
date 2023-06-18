@@ -293,3 +293,5 @@ const jonas1 = {
 // In arrays, we use the index of the element to retrieve the value, whereas in objects we use the name of the property
 
 console.log(jonas1);
+
+// Dot vs. Bracket notation
