@@ -308,3 +308,5 @@ console.log(jonas1['last' + nameKey]);
 // so when to use the dot notation and when to use the bracket notation?
 // we can use the dot notation when we know the property name in advance
 // we can use the bracket notation when we don't know the property name in advance
+
+prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job and friends')
