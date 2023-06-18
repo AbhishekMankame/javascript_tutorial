@@ -320,3 +320,4 @@ if (jonas1[interestedIn]) {
 
 jonas1.location = 'Portugal';   // adding new properties to the object
 jonas1['twitter'] = '@jonasschmedtman'; // adding new properties to the object
+console.log(jonas1);
