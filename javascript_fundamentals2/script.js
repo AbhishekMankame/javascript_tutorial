@@ -258,6 +258,6 @@ console.log(friends.includes('Steven')); // includes method returns true if the 
 console.log(friends.includes('Bob')); // includes function works with strict equality
 // we can write incoudes method to write conditional statements
 
-if (friends.includes('Peter')) {
-    console.log('You have a friend called Peter');
+if (friends.includes('Steven')) {
+    console.log('You have a friend called Steven');
 }
