@@ -281,10 +281,12 @@ console.log(bills, tips, totals);
 // In objects, we can define key value pairs
 // In objects we use curly braces
 
-const jonas_s = {
+const jonas1 = {
     firstName: 'Jonas',
     lastName: 'Schmedtmann',
     age: 2037 - 1991,
     job: 'teacher',
     friends: ['Micheal', 'Peter', 'Steven']
 }
+
+console.log(jonas1);
