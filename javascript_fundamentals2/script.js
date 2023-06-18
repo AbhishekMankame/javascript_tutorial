@@ -274,4 +274,4 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 // const totals = bills + tips; --> this one will return a concatenated string 
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(totals);
-console.log(bills, tips);
+console.log(bills, tips, totals);
