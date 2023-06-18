@@ -297,3 +297,6 @@ console.log(jonas1);
 // Dot vs. Bracket notation
 console.log(jonas1.lastName); // dot notation
 console.log(jonas1['lastName']); // bracket notation
+
+const nameKey = 'Name';
+console.log(jonas1['first' + nameKey]);
