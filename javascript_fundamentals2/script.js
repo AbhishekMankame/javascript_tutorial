@@ -287,6 +287,6 @@ const jonas1 = {
     age: 2037 - 1991,
     job: 'teacher',
     friends: ['Micheal', 'Peter', 'Steven']
-}
+}; // object literal syntax
 
 console.log(jonas1);
