@@ -244,4 +244,4 @@ friends.unshift('John'); // unshift method adds elements to the beginning of the
 console.log(friends);
 
 // Remove elements
-friends.pop(); // pop method removes the last element of the array, also returns the removed element
+const popped = friends.pop(); // pop method removes the last element of the array, also returns the removed element
