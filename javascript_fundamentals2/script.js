@@ -290,4 +290,6 @@ const jonas1 = {
 }; // object literal syntax
 // In object the order of the elements does not matter
 
+// In arrays, we use the index of the element to retrieve the value, whereas in objects we use the name of the property
+
 console.log(jonas1);
