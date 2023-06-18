@@ -261,3 +261,5 @@ console.log(friends.includes('Bob')); // includes function works with strict equ
 if (friends.includes('Steven')) {
     console.log('You have a friend called Steven');
 }
+
+// Coding Exercise 6: CHALLENGE #2
