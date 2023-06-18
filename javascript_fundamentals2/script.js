@@ -324,3 +324,4 @@ console.log(jonas1);
 
 // Challenge
 // "Jonas has 3 friends, and his best friend is calle d Micheal"
+console.log(`${jonas1.firstName} has ${jonas1.friends.length}, and his best friend is called ${jonas1.friends[0]}`);
