@@ -349,6 +349,11 @@ const jonas1 = {
     job: 'teacher',
     friends: ['Micheal', 'Peter', 'Steven'],
     hasDriversLicense: true,
+
+    // calcAge: function (birthYear) {
+    //     return 2037 - birthYear;
+    // }
+
     calcAge: function () {
         console.log(this);
         return 2037 - this.birthYear;
