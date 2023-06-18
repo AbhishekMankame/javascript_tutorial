@@ -226,3 +226,5 @@ console.log(jonas.length);
 
 //console.log(calcAge(years));
 const age4 = calcAge(years[0]);
+const age5 = calcAge(years[0]);
+const age6 = calcAge(years[0]);
