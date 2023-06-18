@@ -304,3 +304,6 @@ console.log(jonas1['last' + nameKey]);
 
 // In bracket notation, we can put any expression that we want
 // In dot notation we need to use the exact or final property name and not a computed property name
+
+// so when to use the dot notation and when to use the bracket notation?
+// we can use the dot notation when we know the property name in advance
