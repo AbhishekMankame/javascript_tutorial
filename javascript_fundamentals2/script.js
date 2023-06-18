@@ -314,4 +314,6 @@ console.log(interestedIn);
 
 if (jonas1[interestedIn]) {
     console.log(jonas1[interestedIn]);
+} else {
+    console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
 }
