@@ -255,4 +255,4 @@ console.log(friends.indexOf('Bob')); // returns -1 if the element is not in the 
 
 console.log(friends.includes('Steven')); // includes method returns true if the element is in the array, otherwise returns false
 
-console.log(friends.includes('Bob'));
+console.log(friends.includes('Bob')); // includes function works with strict equality
