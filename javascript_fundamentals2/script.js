@@ -253,4 +253,6 @@ console.log(friends);
 console.log(friends.indexOf('Steven')); // indexOf method returns the index of the element in the array
 console.log(friends.indexOf('Bob')); // returns -1 if the element is not in the array
 
-console.log(friends.includes('Steven')); // includes method returns true if the element is in the array, otherwise returns falso
+console.log(friends.includes('Steven')); // includes method returns true if the element is in the array, otherwise returns false
+
+console.log(friends.includes('Bob'));
