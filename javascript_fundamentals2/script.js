@@ -281,47 +281,59 @@ console.log(bills, tips, totals);
 // In objects, we can define key value pairs
 // In objects we use curly braces
 
+// const jonas1 = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Micheal', 'Peter', 'Steven']
+// }; // object literal syntax
+// // In object the order of the elements does not matter
+
+// // In arrays, we use the index of the element to retrieve the value, whereas in objects we use the name of the property
+
+// console.log(jonas1);
+
+// // Dot vs. Bracket notation
+// console.log(jonas1.lastName); // dot notation
+// console.log(jonas1['lastName']); // bracket notation
+
+// const nameKey = 'Name';
+// console.log(jonas1['first' + nameKey]);
+// console.log(jonas1['last' + nameKey]);
+
+// // In bracket notation, we can put any expression that we want
+// // In dot notation we need to use the exact or final property name and not a computed property name
+
+// // so when to use the dot notation and when to use the bracket notation?
+// // we can use the dot notation when we know the property name in advance
+// // we can use the bracket notation when we don't know the property name in advance
+
+// const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job and friends');
+// console.log(interestedIn);
+
+// if (jonas1[interestedIn]) {
+//     console.log(jonas1[interestedIn]);
+// } else {
+//     console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
+// }
+
+// jonas1.location = 'Portugal';   // adding new properties to the object
+// jonas1['twitter'] = '@jonasschmedtman'; // adding new properties to the object
+// console.log(jonas1);
+
+// // Challenge
+// // "Jonas has 3 friends, and his best friend is calle d Micheal"
+// console.log(`${jonas1.firstName} has ${jonas1.friends.length} friends, and his best friend is called ${jonas1.friends[0]}`);
+
 const jonas1 = {
     firstName: 'Jonas',
     lastName: 'Schmedtmann',
-    age: 2037 - 1991,
+    birthYear: 1991,
     job: 'teacher',
-    friends: ['Micheal', 'Peter', 'Steven']
-}; // object literal syntax
-// In object the order of the elements does not matter
-
-// In arrays, we use the index of the element to retrieve the value, whereas in objects we use the name of the property
-
-console.log(jonas1);
-
-// Dot vs. Bracket notation
-console.log(jonas1.lastName); // dot notation
-console.log(jonas1['lastName']); // bracket notation
-
-const nameKey = 'Name';
-console.log(jonas1['first' + nameKey]);
-console.log(jonas1['last' + nameKey]);
-
-// In bracket notation, we can put any expression that we want
-// In dot notation we need to use the exact or final property name and not a computed property name
-
-// so when to use the dot notation and when to use the bracket notation?
-// we can use the dot notation when we know the property name in advance
-// we can use the bracket notation when we don't know the property name in advance
-
-const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job and friends');
-console.log(interestedIn);
-
-if (jonas1[interestedIn]) {
-    console.log(jonas1[interestedIn]);
-} else {
-    console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
-}
-
-jonas1.location = 'Portugal';   // adding new properties to the object
-jonas1['twitter'] = '@jonasschmedtman'; // adding new properties to the object
-console.log(jonas1);
-
-// Challenge
-// "Jonas has 3 friends, and his best friend is calle d Micheal"
-console.log(`${jonas1.firstName} has ${jonas1.friends.length} friends, and his best friend is called ${jonas1.friends[0]}`);
+    friends: ['Micheal', 'Peter', 'Steven'],
+    hasDriversLicense: true,
+    calcAge: function (birthYear) {
+        return 2037 - birthYear;
+    }
+};
