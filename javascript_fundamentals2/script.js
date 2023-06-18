@@ -239,3 +239,4 @@ console.log(friends);
 console.log(newLength);
 
 friends.unshift('John'); // unshift method adds elements to the beginning of the array, also returns the length of the new array
+console.log(friends);
