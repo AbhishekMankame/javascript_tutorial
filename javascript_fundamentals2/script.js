@@ -317,3 +317,5 @@ if (jonas1[interestedIn]) {
 } else {
     console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
 }
+
+jonas1.location = 'Portugal';   // adding new properties to the object
