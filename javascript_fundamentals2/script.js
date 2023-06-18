@@ -295,3 +295,4 @@ const jonas1 = {
 console.log(jonas1);
 
 // Dot vs. Bracket notation
+console.log(jonas1.lastName);
