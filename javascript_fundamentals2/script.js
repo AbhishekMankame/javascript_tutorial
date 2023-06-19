@@ -365,5 +365,4 @@ const jonas1 = {
     }
 };
 
-console.log(jonas1.calcAge());
-// console.log(jonas1['calcAge'](1991));
+console.log(jonas1.calcAge()); // console.log(jonas1['calcAge'](1991));
