@@ -342,6 +342,7 @@ console.log(bills, tips, totals);
 // console.log(jonas1['calcAge'](1991));
 
 // Alternate and efficient way by using 'this' keyword
+
 const jonas1 = {
     firstName: 'Jonas',
     lastName: 'Schmedtmann',
