@@ -455,3 +455,5 @@ console.log(age);
 // continue and break
 // continue is to exit the current iteration of the loop
 // break is to completely terminate the whole loop
+
+console.log('--- ONLY STRINGS ---');
