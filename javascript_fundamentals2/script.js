@@ -36,7 +36,7 @@ if (hasDriversLicense) console.log('I can drive :D');
 
 // strict mode reserves some keywords for future JavaScript versions such as interface, private, protected, package, static, etc.
 
-// Finctions
+// Functions
 // The building blocks of real world JavaScript applications is functions
 // Function is a piece of code that we can reuse over and over again
 
