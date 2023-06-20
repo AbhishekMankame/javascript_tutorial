@@ -363,6 +363,10 @@ const jonas1 = {
     calcAge: function () {
         this.age = 2037 - this.birthYear;
         return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license`;
     }
 };
 
