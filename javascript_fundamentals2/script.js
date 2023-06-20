@@ -422,3 +422,5 @@ for (let rep = 1; rep <= 10; rep++) {
 }
 
 // Looping Arrays, Breaking and Continuing
+
+const jonasArray = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', ['Micheal', 'Peter', 'Steven']];
