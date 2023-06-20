@@ -412,4 +412,5 @@ else if (john.bmi > mark.bmi) {
 }
 
 // Loops
+// Iteration: The for loop
 // Iteration: The process of executing a piece of code multiple times
