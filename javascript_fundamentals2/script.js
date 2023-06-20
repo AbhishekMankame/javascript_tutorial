@@ -396,3 +396,6 @@ const john = {
     mass: 78,
     height: 1.69
 }
+
+mark.calcBMI();
+console.log(mark.bmi);
