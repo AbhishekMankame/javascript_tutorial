@@ -415,6 +415,7 @@ else if (john.bmi > mark.bmi) {
 // Iteration: The for loop
 // Iteration: The process of executing a piece of code multiple times
 
+// for loop keeps running while condition is TRUE
 for (let rep = 1; rep <= 10; rep++) {
     console.log('Lifting weights repetition ' + rep);
 }
