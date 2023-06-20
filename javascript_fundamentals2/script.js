@@ -433,7 +433,10 @@ const jonasArray = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', ['Micheal', 
 const types = [];
 
 for (let i = 0; i < jonasArray.length; i++) {
+
+    // reading from jonasArray
     console.log(jonasArray[i], typeof jonasArray[i]);
+    // filling types array
     types[i] = typeof jonasArray[i];
 }
 
