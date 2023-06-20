@@ -446,3 +446,7 @@ console.log(types);
 
 const years1 = [1991, 2007, 1969, 2020];
 const age = [];
+
+for (let i = 0; i < years1.length; i++) {
+    age.push(2037 - years1[i]);
+}
