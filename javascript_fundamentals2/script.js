@@ -450,3 +450,4 @@ const age = [];
 for (let i = 0; i < years1.length; i++) {
     age.push(2037 - years1[i]);
 }
+console.log(age);
