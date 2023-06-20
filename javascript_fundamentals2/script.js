@@ -401,4 +401,5 @@ const john = {
 }
 
 mark.calcBMI();
-console.log(mark.bmi);
+john.calcBMI();
+console.log(mark.bmi, john.bmi);
