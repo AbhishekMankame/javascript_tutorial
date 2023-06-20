@@ -425,6 +425,6 @@ for (let rep = 1; rep <= 10; rep++) {
 
 const jonasArray = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', ['Micheal', 'Peter', 'Steven']];
 
-for (let i = 0; i < 5; i++) {
-    console.log(jonasArray[i]);
-}
+// for (let i = 0; i < 5; i++) {
+//     console.log(jonasArray[i]);
+// }
