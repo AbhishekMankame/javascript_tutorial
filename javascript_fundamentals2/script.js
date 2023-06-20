@@ -445,3 +445,4 @@ for (let i = 0; i < jonasArray.length; i++) {
 console.log(types);
 
 const years1 = [1991, 2007, 1969, 2020];
+const age = [];
