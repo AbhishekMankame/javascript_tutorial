@@ -393,8 +393,8 @@ const mark = {
 
 const john = {
     fullName: 'John Smith',
-    mass: 78,
-    height: 1.69
+    mass: 92,
+    height: 1.95
 }
 
 mark.calcBMI();
