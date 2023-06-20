@@ -465,4 +465,5 @@ for (let i = 0; i < jonasArray.length; i++) {
 console.log('--- BREAK WITH NUMBER ---');
 for (let i = 0; i < jonasArray.length; i++) {
     if (typeof jonasArray[i] === 'number') break;
+    console.log(jonasArray[i], typeof jonasArray[i]);
 }
