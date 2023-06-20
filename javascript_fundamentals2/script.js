@@ -385,7 +385,10 @@ console.log(jonas1.getSummary());
 const mark = {
     fullName: 'Mark Miller',
     mass: 78,
-    height: 1.69
+    height: 1.69,
+    calcBMI: function () {
+        this.bmi = this.mass / this.height ** 2;
+    }
 }
 
 const john = {
