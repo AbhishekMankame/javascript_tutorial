@@ -430,6 +430,7 @@ const jonasArray = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', ['Micheal', 
 // }
 
 // creating an empty array
+const types = [];
 
 for (let i = 0; i < jonasArray.length; i++) {
     console.log(jonasArray[i], typeof jonasArray[i]);
