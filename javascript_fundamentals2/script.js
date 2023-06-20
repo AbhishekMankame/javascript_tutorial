@@ -384,4 +384,6 @@ console.log(jonas1.getSummary());
 
 const mark = {
     fullName: 'Mark Miller',
+    mass: 78,
+    height: 1.69
 }
