@@ -453,3 +453,4 @@ for (let i = 0; i < years1.length; i++) {
 console.log(age);
 
 // continue and break
+// continue is to exit the current iteration of the loop
