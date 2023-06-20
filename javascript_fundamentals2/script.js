@@ -371,3 +371,5 @@ console.log(jonas1.age);
 console.log(jonas1.age);
 
  // console.log(jonas1['calcAge'](1991));
+
+ // Challenge
