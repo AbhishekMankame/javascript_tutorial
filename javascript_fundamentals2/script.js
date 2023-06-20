@@ -375,9 +375,13 @@ console.log(jonas1.age);
 console.log(jonas1.age);
 console.log(jonas1.getSummary());
 
- // console.log(jonas1['calcAge'](1991));
+// console.log(jonas1['calcAge'](1991));
 
- // Challenge
- // 'jonas is a 46-year old teacher, and he has a driver's license'
+// Challenge
+// 'jonas is a 46-year old teacher, and he has a driver's license'
 
- // Coding Exercise 7: CHALLENGE #3
+// Coding Exercise 7: CHALLENGE #3
+
+const mark = {
+    fullName: 'Mark Miller',
+}
