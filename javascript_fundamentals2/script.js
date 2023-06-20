@@ -379,3 +379,5 @@ console.log(jonas1.getSummary());
 
  // Challenge
  // 'jonas is a 46-year old teacher, and he has a driver's license'
+
+ // Coding Exercise 7: CHALLENGE #3
