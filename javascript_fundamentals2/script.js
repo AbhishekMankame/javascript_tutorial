@@ -430,5 +430,5 @@ const jonasArray = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', ['Micheal', 
 // }
 
 for (let i = 0; i < jonasArray.length; i++) {
-    console.log(jonasArray[i]);
+    console.log(jonasArray[i], typeof jonasArray[i]);
 }
