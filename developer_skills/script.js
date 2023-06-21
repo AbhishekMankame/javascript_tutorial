@@ -50,6 +50,8 @@ const calcTempAmplitude = function (temps) {
     if (curTemp < min) min = curTemp;
   }
   console.log(max, min);
+  return max - min;
 };
-calcTempAmplitude([3, 5, 6]);
-calcTempAmplitude(temperature);
+//calcTempAmplitude([3, 5, 6]);
+const amplitude = calcTempAmplitude(temperature);
+console.log(amplitude);
