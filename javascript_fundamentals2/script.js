@@ -491,3 +491,4 @@ while (rep <= 10) {
     console.log(`WHILE: Lifting weights repetition ${rep} 🏋️‍♀️`);
     rep++;
 }
+// While loop is more versatile than the for loop, which means it can be used in a larger variety of situations.
