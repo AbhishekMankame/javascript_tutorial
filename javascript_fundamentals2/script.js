@@ -518,3 +518,4 @@ for (let i = 0; i < bills1.length; i++) {
     tips1.push(tip);
     totals1.push(tip + bills1[i]);
 }
+console.log(bills1, tips1, totals1);
