@@ -13,5 +13,6 @@ console.log('This is loaded through the help of live server');
 
 // How to think like a developer: Become a problem solver
 // Fixing the problem solving basic issue
+// Stay calm and slow down, don't just jump at a person without a plan
 // Take a very logical and rational approach to solving problems (programming is just logic)
 // John's 5 steps to solve any coding problem
