@@ -530,3 +530,4 @@ const calcAverage1 = function (arr) {
 
 console.log(calcAverage1([2, 3, 7]));
 console.log(calcAverage1(totals1));
+console.log(calcAverage1(tips1));
