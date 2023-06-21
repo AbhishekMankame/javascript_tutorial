@@ -60,5 +60,6 @@ console.log(amplitude);
 // Function should now receive 2 arrays of temperature
 
 // 1) Understanding the problem
+// - With 2 arrays, should we implement
 
 // 2) Breaking up into sub-problems
