@@ -40,6 +40,6 @@ const temperature = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 // - Subtract min from max (amplitude) and return it
 
 const calcTempAmplitude = function (temps) {
-  let max = temperature[0];
-  for (let i = 0; i < temperature.length; i++) {}
+  let max = temps[0];
+  for (let i = 0; i < temps.length; i++) {}
 };
