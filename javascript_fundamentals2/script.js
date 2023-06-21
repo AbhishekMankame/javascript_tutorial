@@ -495,4 +495,4 @@ while (rep <= 10) {
 
 // Rolling a dice until a 6 is rolled
 
-let dice = Math.trunc(Math.random() * 6);
+let dice = Math.trunc(Math.random() * 6) + 1;
