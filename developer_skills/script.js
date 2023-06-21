@@ -20,3 +20,4 @@ console.log('This is loaded through the help of live server');
 // 1. Make sure you 100% understand the problem. Ask the right questions to get a clear picture of the problem
 // 2. Divide and conquer: Break a big problem into smaller sub-problems
 // 3. Don't be afraid to do as much research as you have to
+// 4. For bigger problems, write pesudo-code before writing the actual code
