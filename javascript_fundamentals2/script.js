@@ -519,3 +519,10 @@ for (let i = 0; i < bills1.length; i++) {
     totals1.push(tip + bills1[i]);
 }
 console.log(bills1, tips1, totals1);
+
+const calcAverage1 = function (arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+
+    }
+}
