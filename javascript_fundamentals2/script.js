@@ -492,3 +492,5 @@ while (rep <= 10) {
     rep++;
 }
 // While loop is more versatile than the for loop, which means it can be used in a larger variety of situations, as it does not need a counter variable
+
+// Rolling a dice until a 6 is rolled
