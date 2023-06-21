@@ -37,3 +37,4 @@ const temperature = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 // - How to ignore errors?
 // - Find max value in temp array
 // - Find min value in temp array
+// - Subtract min from max (amplitude) and return it
