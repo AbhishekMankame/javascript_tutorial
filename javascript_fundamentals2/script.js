@@ -474,5 +474,5 @@ for (let i = jonasArray.length - 1; i >= 0; i--) {
 
 // Looping inside a Loop
 for (let exercise = 1; exercise < 4; exercise++) {
-
+    console.log(`-------- Starting exercise ${exercise}`);
 }
