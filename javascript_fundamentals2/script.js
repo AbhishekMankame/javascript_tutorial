@@ -525,7 +525,7 @@ const calcAverage1 = function (arr) {
     for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
-    console.log(sum);
+    return sum / arr.length;
 }
 
-calcAverage1([2, 3, 6]);
+console.log(calcAverage1([2, 3, 6]));
