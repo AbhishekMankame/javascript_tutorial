@@ -12,3 +12,4 @@ console.log('This is loaded through the help of live server');
 // Learning how to code
 
 // How to think like a developer: Become a problem solver
+// John's 5 steps to solve any coding problem
