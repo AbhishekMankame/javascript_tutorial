@@ -528,4 +528,4 @@ const calcAverage1 = function (arr) {
     console.log(sum);
 }
 
-calcAverage1([2, 3, 7]);
+calcAverage1([2, 3, 6]);
