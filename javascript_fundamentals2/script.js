@@ -523,6 +523,7 @@ console.log(bills1, tips1, totals1);
 const calcAverage1 = function (arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
 
     }
 }
