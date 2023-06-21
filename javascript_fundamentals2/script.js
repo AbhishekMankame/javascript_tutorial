@@ -512,3 +512,7 @@ const calcTip1 = function (bill) {
 const bills1 = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips1 = [];
 const totals1 = [];
+
+for (let i = 0; i < bills1.length; i++) {
+    const tip = calcTip1(bills1[i]);
+}
