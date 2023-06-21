@@ -15,4 +15,6 @@ console.log('This is loaded through the help of live server');
 // Fixing the problem solving basic issue
 // Stay calm and slow down, don't just jump at a person without a plan
 // Take a very logical and rational approach to solving problems (programming is just logic)
-// John's 5 steps to solve any coding problem
+
+// John's 4 steps to solve any coding problem
+// 1. Make sure you 100% understand the problem. Ask the right questions to get a clear picture of the problem
