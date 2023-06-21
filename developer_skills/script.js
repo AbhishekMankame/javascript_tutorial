@@ -41,5 +41,8 @@ const temperature = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 const calcTempAmplitude = function (temps) {
   let max = temps[0];
-  for (let i = 0; i < temps.length; i++) {}
+  for (let i = 0; i < temps.length; i++) {
+    if (max > temps[i]) max = temps[i];
+  }
+  console.log(max);
 };
