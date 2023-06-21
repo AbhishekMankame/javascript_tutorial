@@ -10,3 +10,5 @@ console.log(calcAge(1991));
 console.log('This is loaded through the help of live server');
 
 // Learning how to code
+
+// How to think like a developer: Become a problem solver
