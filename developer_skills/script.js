@@ -55,3 +55,6 @@ const calcTempAmplitude = function (temps) {
 //calcTempAmplitude([3, 5, 6]);
 const amplitude = calcTempAmplitude(temperature);
 console.log(amplitude);
+
+// PROBLEM 2:
+// Function should now receive 2 arrays of temperature
