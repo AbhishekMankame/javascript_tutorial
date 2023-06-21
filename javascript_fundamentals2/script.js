@@ -506,6 +506,9 @@ while (dice !== 6) {
 
 // Coding Exercise 8: CHALLENGE #4
 
+const calcTip1 = function (bill) {
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
 const bills1 = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips1 = [];
 const totals1 = [];
