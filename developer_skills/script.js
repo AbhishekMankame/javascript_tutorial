@@ -70,3 +70,20 @@ const array1 = ['a', 'b', 'c'];
 const array2 = ['d', 'e', 'f'];
 const array3 = array1.concat(array2);
 console.log(array3);
+
+const calcTempAmplitudeNew = function (temps) {
+  let max = temps[0];
+  let min = temps[0];
+  for (let i = 0; i < temps.length; i++) {
+    const curTemp = temps[i];
+
+    if (typeof curTemp !== 'number') continue;
+    if (curTemp > max) max = curTemp;
+    if (curTemp < min) min = curTemp;
+  }
+  console.log(max, min);
+  return max - min;
+};
+//calcTempAmplitude([3, 5, 6]);
+const amplitudeNew = calcTempAmplitudeNew(temperature);
+console.log(amplitude);
