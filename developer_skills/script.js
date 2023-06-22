@@ -95,3 +95,9 @@ console.log(amplitudeNew);
 // fact: A real bug whuch causing an error in Harvard's computer in the 1940s was the inspiration for using the word bug for a software error
 
 // Debugging: The process of finding bugs or errors and fixing them
+
+// The debugging process
+// 1. Identity
+// 2. Find
+// 3. Fix
+// 4. Prevent (in the future)
