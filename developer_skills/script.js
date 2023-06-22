@@ -89,3 +89,5 @@ const calcTempAmplitudeNew = function (t1, t2) {
 //calcTempAmplitude([3, 5, 6]);
 const amplitudeNew = calcTempAmplitudeNew([3, 5, 6], [9, 0, 5]);
 console.log(amplitudeNew);
+
+// Software bug: Defect or problem in a computer program. Basically any unexpectednor unintended behaviour of a computer program is a software bug
