@@ -93,3 +93,5 @@ console.log(amplitudeNew);
 // Software bug: Defect or problem in a computer program. Basically any unexpectednor unintended behaviour of a computer program is a software bug
 // Bugs are completely normal in software development
 // fact: A real bug whuch causing an error in Harvard's computer in the 1940s was the inspiration for using the word bug for a software error
+
+// Debugging: The process of finding bugs or errors and fixing them
