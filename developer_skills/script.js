@@ -71,7 +71,9 @@ const array2 = ['d', 'e', 'f'];
 const array3 = array1.concat(array2);
 console.log(array3);
 
-const calcTempAmplitudeNew = function (temps) {
+const calcTempAmplitudeNew = function (t1, t2) {
+  const temps = t1.concat(t2);
+  console.log(temps);
   let max = temps[0];
   let min = temps[0];
   for (let i = 0; i < temps.length; i++) {
