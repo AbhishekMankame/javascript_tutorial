@@ -87,5 +87,5 @@ const calcTempAmplitudeNew = function (t1, t2) {
   return max - min;
 };
 //calcTempAmplitude([3, 5, 6]);
-const amplitudeNew = calcTempAmplitudeNew(temperature);
+const amplitudeNew = calcTempAmplitudeNew([3, 5, 6], [9, 0, 5]);
 console.log(amplitudeNew);
