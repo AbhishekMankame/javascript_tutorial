@@ -64,3 +64,7 @@ console.log(amplitude);
 
 // 2) Breaking up into sub-problems
 // - How to merge 2 arrays?
+
+// merge array example
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
