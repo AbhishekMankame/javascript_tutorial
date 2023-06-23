@@ -108,4 +108,6 @@ const measureKelvin = function () {
     unit: 'celcius',
     value: prompt('Degrees celcius:'),
   };
+  const kelvin = measurement.value + 273;
+  return kelvin;
 };
