@@ -129,4 +129,5 @@ console.log(measureKelvin());
 
 Example: [17, 21, 23] will print "... 17ºC in 1 days ... 21ºC in 2 days ... 23ºC in 3 days ..."
 
+Create a function 'printforecast' which takes in an array 'arr' and logs a string like the above to the console. 
 */
