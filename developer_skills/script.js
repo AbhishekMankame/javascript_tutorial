@@ -109,6 +109,8 @@ const measureKelvin = function () {
     value: prompt('Degrees celcius:'),
   };
   console.log(measurement);
+
+  // B) Find the bug
   console.table(measurement); // This is used to display the object in a table format
   console.log(measurement.value);
   //   console.warn(measurement.value);
@@ -117,4 +119,5 @@ const measureKelvin = function () {
   return kelvin;
 };
 
+// A) Identify the bug
 console.log(measureKelvin());
