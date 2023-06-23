@@ -152,5 +152,8 @@ console.log(`... ${data1[0]}ºC ... ${data1[1]}ºC ... ${data1[2]}ºC ...`);
 
 const printForecast = function (arr) {
   let str = '';
-  for (let i = 0; i < arr.length; i++) {}
+  for (let i = 0; i < arr.length; i++) {
+    str += `${arr[i]}ºC`;
+  }
+  console.log(str);
 };
