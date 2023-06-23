@@ -136,5 +136,6 @@ TEST DATA 2: [12, 5, -5, 0, 4]
 */
 
 // 1) Understanding the problem
+// - Array transformed to string, seperated by ...
 
 // 2) Breaking up into sub-problems
