@@ -122,3 +122,6 @@ debugger;
 
 // A) Identify the bug
 console.log(measureKelvin());
+
+/////////////////////////
+// Coding Challenge #1
