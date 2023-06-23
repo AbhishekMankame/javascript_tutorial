@@ -101,3 +101,11 @@ console.log(amplitudeNew);
 // 2. Find
 // 3. Fix
 // 4. Prevent (in the future)
+
+const measureKelvin = function () {
+  const measurement = {
+    type: 'temp',
+    unit: 'celcius',
+    value: prompt('Degrees celcius:'),
+  };
+};
