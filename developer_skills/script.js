@@ -109,7 +109,7 @@ const measureKelvin = function () {
     value: prompt('Degrees celcius:'),
   };
   console.log(measurement);
-  console.table(measurement);
+  console.table(measurement); // This is used to display the object in a table format
   console.log(measurement.value);
   //   console.warn(measurement.value);
   //   console.error(measurement.value);
