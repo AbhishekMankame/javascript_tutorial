@@ -158,3 +158,5 @@ const printForecast = function (arr) {
   }
   console.log(str);
 };
+
+console.log(printForecast(data1));
