@@ -125,3 +125,7 @@ console.log(measureKelvin());
 
 /////////////////////////
 // Coding Challenge #1
+/* Given an array of forecasted maximum temperatures, the thermometer displays a string with these temperatures.
+
+
+*/
