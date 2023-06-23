@@ -26,13 +26,12 @@
 //     return -1;
 // }
 
-
-'use strict';
+"use strict";
 let hasDriversLicense = false;
 const passTest = true;
 
 if (passTest) hasDriversLicense = true;
-if (hasDriversLicense) console.log('I can drive :D');
+if (hasDriversLicense) console.log("I can drive :D");
 
 // strict mode reserves some keywords for future JavaScript versions such as interface, private, protected, package, static, etc.
 
@@ -41,8 +40,9 @@ if (hasDriversLicense) console.log('I can drive :D');
 // Function is a piece of code that we can reuse over and over again
 
 // Function declaration
-function logger() {         // The code inside the curly braces is called function body
-    console.log('My name is Abhishek');
+function logger() {
+  // The code inside the curly braces is called function body
+  console.log("My name is Abhishek");
 }
 
 logger(); // calling / running / invoking the function
@@ -79,17 +79,19 @@ console.log(logg);
 //     return age;
 // }
 
-function calcAge1(birthYear) {  // birthYear is a parameter
-    return 2037 - birthYear;
+function calcAge1(birthYear) {
+  // birthYear is a parameter
+  return 2037 - birthYear;
 }
 
 const age1 = calcAge1(1991); // 1991 is an agruement
 console.log(age1);
 
 // Function expression
-const calcAge2 = function (birthYear) {  // anonymous function
-    return 2037 - birthYear;
-}
+const calcAge2 = function (birthYear) {
+  // anonymous function
+  return 2037 - birthYear;
+};
 
 // Anonymous function is basically an expression, which produces a value, and we can store that value in a variable
 
@@ -101,7 +103,7 @@ console.log(age1, age2);
 // Arrow function
 // Arrow function is a special form of function expression, and is always anonymous
 
-const calcAge3 = birthYear => 2037 - birthYear; // arrow function
+const calcAge3 = (birthYear) => 2037 - birthYear; // arrow function
 const age3 = calcAge3(1991);
 console.log(age3);
 
@@ -120,42 +122,39 @@ console.log(age3);
 // console.log(yearsUntilRetirement(1991, 'Jonas'));
 // console.log(yearsUntilRetirement(1980, 'Bob'));
 
-
 // one of the main differences between arrow function and function expression is that arrow function does not get a 'this' keyword
 
 function cutFruitPieces(fruit) {
-    return fruit * 4;
+  return fruit * 4;
 }
 
-
 function fruitProcessor(apples, oranges) {
-    const applePieces = cutFruitPieces(apples);
-    const orangePieces = cutFruitPieces(oranges);
-    const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges`;
-    return juice;
+  const applePieces = cutFruitPieces(apples);
+  const orangePieces = cutFruitPieces(oranges);
+  const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges`;
+  return juice;
 }
 
 console.log(fruitProcessor(2, 3));
 
 const calcAge = function (birthYear) {
-    return 2037 - birthYear;
-}
+  return 2037 - birthYear;
+};
 // Reviewing functions
 const yearsUntilRetirement = (birthYear, firstName) => {
-    const age = calcAge(birthYear);
-    const retirement = 65 - age;
-    if (retirement > 0) {
-        console.log(`${firstName} retires in ${retirement} years.`);
-        return retirement;
-    } else {
-        console.log(`${firstName} has already reitred 🎉`);
-        return -1;
-    }
-}
+  const age = calcAge(birthYear);
+  const retirement = 65 - age;
+  if (retirement > 0) {
+    console.log(`${firstName} retires in ${retirement} years.`);
+    return retirement;
+  } else {
+    console.log(`${firstName} has already reitred 🎉`);
+    return -1;
+  }
+};
 
-console.log(yearsUntilRetirement(1991, 'Jonas'));
-console.log(yearsUntilRetirement(1970, 'Mike'));
-
+console.log(yearsUntilRetirement(1991, "Jonas"));
+console.log(yearsUntilRetirement(1970, "Mike"));
 
 // Coding challenge 5: CHALLENGE #1
 
@@ -170,16 +169,14 @@ console.log(scoreDolphins, scoreKoalas);
 
 // Function checkWinner
 const checkWinner = function (avgDolphins, avgKoalas) {
-    if (avgDolphins >= 2 * avgKoalas) {
-        console.log(`Dolphins win 🏆 (${avgDolphins} vs. ${avgKoalas}) `);
-    }
-    else if (avgKoalas >= 2 * avgDolphins) {
-        console.log(`Koalas win 🏆 (${avgKoalas} vs. ${avgDolphins})`);
-    }
-    else {
-        console.log('No one wins...');
-    }
-}
+  if (avgDolphins >= 2 * avgKoalas) {
+    console.log(`Dolphins win 🏆 (${avgDolphins} vs. ${avgKoalas}) `);
+  } else if (avgKoalas >= 2 * avgDolphins) {
+    console.log(`Koalas win 🏆 (${avgKoalas} vs. ${avgDolphins})`);
+  } else {
+    console.log("No one wins...");
+  }
+};
 checkWinner(scoreDolphins, scoreKoalas);
 
 // test 2
@@ -195,7 +192,7 @@ checkWinner(scoreDolphins, scoreKoalas);
 
 // Two of the most important data structures in JavaScript are arrays and objects
 
-const friends = ['Micheal', 'Steven', 'Peter'];
+const friends = ["Micheal", "Steven", "Peter"];
 console.log(friends);
 
 const years = new Array(1991, 1984, 2008, 2020); // Created an array using array function
@@ -205,18 +202,18 @@ console.log(friends[1]);
 console.log(friends[2]);
 
 console.log(friends.length); // length property
-console.log(friends[friends.length - 1]) // last element of the array
+console.log(friends[friends.length - 1]); // last element of the array
 
 // In JavaScript, we can mutate arrays even though they are const
 // In JavaScript only primitive values are immutable, but arrays and objects are mutable
-friends[2] = 'Jay';
+friends[2] = "Jay";
 console.log(friends);
 
 // Note: We can replace the elements of array, but we cannot replace the entire array --> we will get assignment to constant variable error
 
 // different data types can be stored in an array
-const firstName = 'Jonas';
-const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+const firstName = "Jonas";
+const jonas = [firstName, "Schmedtmann", 2037 - 1991, "teacher", friends];
 console.log(jonas);
 console.log(jonas.length);
 
@@ -230,17 +227,21 @@ const age5 = calcAge(years[1]);
 const age6 = calcAge(years[years.length - 1]);
 console.log(age4, age5, age6);
 
-const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
+const ages = [
+  calcAge(years[0]),
+  calcAge(years[1]),
+  calcAge(years[years.length - 1]),
+];
 console.log(ages);
 
 // Basci array operations (methods)
 
 // Add elements
-const newLength = friends.push('Jay'); // push method adds elements to the end of the array, also returns the length of the new array
+const newLength = friends.push("Jay"); // push method adds elements to the end of the array, also returns the length of the new array
 console.log(friends);
 console.log(newLength);
 
-friends.unshift('John'); // unshift method adds elements to the beginning of the array, also returns the length of the new array
+friends.unshift("John"); // unshift method adds elements to the beginning of the array, also returns the length of the new array
 console.log(friends);
 
 // Remove elements
@@ -250,28 +251,28 @@ console.log(popped);
 
 friends.shift(); // shift method removes the first element of the array, also returns the removed element
 console.log(friends);
-console.log(friends.indexOf('Steven')); // indexOf method returns the index of the element in the array
-console.log(friends.indexOf('Bob')); // returns -1 if the element is not in the array
+console.log(friends.indexOf("Steven")); // indexOf method returns the index of the element in the array
+console.log(friends.indexOf("Bob")); // returns -1 if the element is not in the array
 
-console.log(friends.includes('Steven')); // includes method returns true if the element is in the array, otherwise returns false
+console.log(friends.includes("Steven")); // includes method returns true if the element is in the array, otherwise returns false
 
-console.log(friends.includes('Bob')); // includes function works with strict equality
+console.log(friends.includes("Bob")); // includes function works with strict equality
 // we can write incoudes method to write conditional statements
 
-if (friends.includes('Steven')) {
-    console.log('You have a friend called Steven');
+if (friends.includes("Steven")) {
+  console.log("You have a friend called Steven");
 }
 
 // Coding Exercise 6: CHALLENGE #2
 const calcTip = function (bill) {
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 };
 
 // const calcTip => bill => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
 const bills = [125, 555, 44];
 const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
-// const totals = bills + tips; --> this one will return a concatenated string 
+// const totals = bills + tips; --> this one will return a concatenated string
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(totals);
 console.log(bills, tips, totals);
@@ -344,30 +345,32 @@ console.log(bills, tips, totals);
 // Alternate and efficient way by using 'this' keyword
 
 const jonas1 = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    birthYear: 1991,
-    job: 'teacher',
-    friends: ['Micheal', 'Peter', 'Steven'],
-    hasDriversLicense: true,
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  birthYear: 1991,
+  job: "teacher",
+  friends: ["Micheal", "Peter", "Steven"],
+  hasDriversLicense: true,
 
-    // calcAge: function (birthYear) {
-    //     return 2037 - birthYear;
-    // }
+  // calcAge: function (birthYear) {
+  //     return 2037 - birthYear;
+  // }
 
-    // calcAge: function () {
-    //     console.log(this);
-    //     return 2037 - this.birthYear;
-    // }
+  // calcAge: function () {
+  //     console.log(this);
+  //     return 2037 - this.birthYear;
+  // }
 
-    calcAge: function () {
-        this.age = 2037 - this.birthYear;
-        return this.age;
-    },
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
 
-    getSummary: function () {
-        return `${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license`;
-    }
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()} year old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license`;
+  },
 };
 
 console.log(jonas1.calcAge());
@@ -383,32 +386,35 @@ console.log(jonas1.getSummary());
 // Coding Exercise 7: CHALLENGE #3
 
 const mark = {
-    fullName: 'Mark Miller',
-    mass: 78,
-    height: 1.69,
-    calcBMI: function () {
-        this.bmi = this.mass / this.height ** 2;
-    }
-}
+  fullName: "Mark Miller",
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+  },
+};
 
 const john = {
-    fullName: 'John Smith',
-    mass: 92,
-    height: 1.95,
-    calcBMI: function () {
-        this.bmi = this.mass / this.height ** 2;
-    }
-}
+  fullName: "John Smith",
+  mass: 92,
+  height: 1.95,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+  },
+};
 
 mark.calcBMI();
 john.calcBMI();
 console.log(mark.bmi, john.bmi);
 
 if (mark.bmi > john.bmi) {
-    console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`);
-}
-else if (john.bmi > mark.bmi) {
-    console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`);
+  console.log(
+    `${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`
+  );
+} else if (john.bmi > mark.bmi) {
+  console.log(
+    `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`
+  );
 }
 
 // Loops
@@ -417,13 +423,19 @@ else if (john.bmi > mark.bmi) {
 
 // for loop keeps running while condition is TRUE
 for (let rep = 1; rep <= 10; rep++) {
-    // console.log('Lifting weights repetition ' + rep);
-    console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+  // console.log('Lifting weights repetition ' + rep);
+  console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
 }
 
 // Looping Arrays, Breaking and Continuing
 
-const jonasArray = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', ['Micheal', 'Peter', 'Steven']];
+const jonasArray = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Micheal", "Peter", "Steven"],
+];
 
 // for (let i = 0; i < 5; i++) {
 //     console.log(jonasArray[i]);
@@ -433,13 +445,12 @@ const jonasArray = ['Jonas', 'Schmedtmann', 2037 - 1991, 'teacher', ['Micheal', 
 const types = [];
 
 for (let i = 0; i < jonasArray.length; i++) {
+  // reading from jonasArray
+  console.log(jonasArray[i], typeof jonasArray[i]);
+  // filling types array
 
-    // reading from jonasArray
-    console.log(jonasArray[i], typeof jonasArray[i]);
-    // filling types array
-
-    //types[i] = typeof jonasArray[i];
-    types.push(typeof jonasArray[i]);
+  //types[i] = typeof jonasArray[i];
+  types.push(typeof jonasArray[i]);
 }
 
 console.log(types);
@@ -448,7 +459,7 @@ const years1 = [1991, 2007, 1969, 2020];
 const age = [];
 
 for (let i = 0; i < years1.length; i++) {
-    age.push(2037 - years1[i]);
+  age.push(2037 - years1[i]);
 }
 console.log(age);
 
@@ -456,40 +467,40 @@ console.log(age);
 // continue is to exit the current iteration of the loop
 // break is to completely terminate the whole loop
 
-console.log('--- ONLY STRINGS ---');
+console.log("--- ONLY STRINGS ---");
 for (let i = 0; i < jonasArray.length; i++) {
-    if (typeof jonasArray[i] !== 'string') continue;
-    console.log(jonasArray[i], typeof jonasArray[i]);
+  if (typeof jonasArray[i] !== "string") continue;
+  console.log(jonasArray[i], typeof jonasArray[i]);
 }
 
-console.log('--- BREAK WITH NUMBER ---');
+console.log("--- BREAK WITH NUMBER ---");
 for (let i = 0; i < jonasArray.length; i++) {
-    if (typeof jonasArray[i] === 'number') break;
-    console.log(jonasArray[i], typeof jonasArray[i]);
+  if (typeof jonasArray[i] === "number") break;
+  console.log(jonasArray[i], typeof jonasArray[i]);
 }
 
 for (let i = jonasArray.length - 1; i >= 0; i--) {
-    console.log(i, jonasArray[i]);
+  console.log(i, jonasArray[i]);
 }
 
 // Looping inside a Loop
 for (let exercise = 1; exercise < 4; exercise++) {
-    console.log(`-------- Starting exercise ${exercise}`);
-    for (let rep = 1; rep < 6; rep++) {
-        console.log(`Exercise ${exercise}: Lifting weight repetition ${rep} 🏋️‍♀️`);
-    }
+  console.log(`-------- Starting exercise ${exercise}`);
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${rep} 🏋️‍♀️`);
+  }
 }
 
 // While Loop
 for (let rep = 1; rep <= 10; rep++) {
-    console.log(`FOR: Lifting weights repetition ${rep} 🏋️‍♀️`);
+  console.log(`FOR: Lifting weights repetition ${rep} 🏋️‍♀️`);
 }
 
 // using while loop
 let rep = 1;
 while (rep <= 10) {
-    console.log(`WHILE: Lifting weights repetition ${rep} 🏋️‍♀️`);
-    rep++;
+  console.log(`WHILE: Lifting weights repetition ${rep} 🏋️‍♀️`);
+  rep++;
 }
 // While loop is more versatile than the for loop, which means it can be used in a larger variety of situations, as it does not need a counter variable
 
@@ -499,34 +510,34 @@ let dice = Math.trunc(Math.random() * 6) + 1;
 //console.log(dice);
 
 while (dice !== 6) {
-    console.log(`You rolled a ${dice}`);
-    dice = Math.trunc(Math.random() * 6) + 1;
-    if (dice === 6) console.log('Loop is about to end...');
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log("Loop is about to end...");
 }
 
 // Coding Exercise 8: CHALLENGE #4
 
 const calcTip1 = function (bill) {
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-}
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
 const bills1 = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips1 = [];
 const totals1 = [];
 
 for (let i = 0; i < bills1.length; i++) {
-    const tip = calcTip1(bills1[i]);
-    tips1.push(tip);
-    totals1.push(tip + bills1[i]);
+  const tip = calcTip1(bills1[i]);
+  tips1.push(tip);
+  totals1.push(tip + bills1[i]);
 }
 console.log(bills1, tips1, totals1);
 
 const calcAverage1 = function (arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
-    return sum / arr.length;
-}
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+};
 
 console.log(calcAverage1([2, 3, 7]));
 console.log(calcAverage1(totals1));
