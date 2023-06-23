@@ -144,6 +144,7 @@ TEST DATA 2: [12, 5, -5, 0, 4]
 // - Transform each element to string with ºC
 // - String needs to contain day (index + 1)
 // - Add ...  between elements and start and end of string
+// - log string to console
 
 const data1 = [17, 27, 23];
 const data2 = [12, 5, -5, 0, 4];
