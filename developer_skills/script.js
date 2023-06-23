@@ -140,3 +140,5 @@ TEST DATA 2: [12, 5, -5, 0, 4]
 // - What is the X days? Answer: Index + 1
 
 // 2) Breaking up into sub-problems
+// - Transform array into string
+// - Transform each element to string with ºC
