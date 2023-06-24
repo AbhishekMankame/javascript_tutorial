@@ -17,6 +17,10 @@ h1 {
   margin-bottom: 25px;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
 .first {
   color: red;
 }
