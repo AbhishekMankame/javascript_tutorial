@@ -48,6 +48,10 @@ a {
   background-color: yellowgreen;
 }
 
+#course-image {
+  width: 200px;
+}
+
 /* child selector */
 #your-name h2 {
   color: olivedrab;
