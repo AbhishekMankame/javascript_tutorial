@@ -37,3 +37,9 @@ h2 {
   margin-bottom: 20px;
   text-align: center;
 }
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
