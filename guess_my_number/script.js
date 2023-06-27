@@ -20,3 +20,5 @@
 // document.querySelector('.score').textContent = 10;
 
 // console.log(document.querySelector('.guess').value);
+
+'use strict';
