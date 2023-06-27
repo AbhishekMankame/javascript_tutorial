@@ -11,3 +11,4 @@ console.log(document.querySelector('.message').textContent);
 // Query selector method is available on the document object. It is used to select elements in the DOM
 // Generally the first chile element of the document is the html element
 // DOM tree has the nodes for all the text and elements in the html document and also for comments and other stuffs
+// DON !== JavaScript
