@@ -8,3 +8,4 @@ console.log(document.querySelector('.message').textContent);
 // DOM is like a tree structure of all the elements in the html document. here each element is an object
 
 // Special object callled document object. It is automatically created by the browser, it is the entry point to the DOM
+// Query selector method is available on the document object.
