@@ -1,7 +1,3 @@
-'use strict';
-
-console.log(document.querySelector('.message').textContent);
-
 // Document object model (DOM)
 // Document Object Model(DOM): Structured representation of HTML documents. Allows javascript to access html elements and styles to manipulate then
 // DOM is basically a connection point between HTML and Javascript
@@ -14,3 +10,7 @@ console.log(document.querySelector('.message').textContent);
 // DON !== JavaScript
 
 // DOM and DOM methods are part of the web APIs. Web APIs are basically libraries that browsers implement and we can access them without having to write the code for them
+
+'use strict';
+
+console.log(document.querySelector('.message').textContent);
