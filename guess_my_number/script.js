@@ -22,3 +22,5 @@
 // console.log(document.querySelector('.guess').value);
 
 'use strict';
+
+document.querySelector('.check').addEventListener();
