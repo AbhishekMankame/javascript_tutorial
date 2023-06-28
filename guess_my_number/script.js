@@ -23,4 +23,4 @@
 
 'use strict';
 
-document.querySelector('.check').addEventListener('click');
+document.querySelector('.check').addEventListener('click', function () {});
