@@ -8,7 +8,6 @@
 // // Generally the first chile element of the document is the html element
 // // DOM tree has the nodes for all the text and elements in the html document and also for comments and other stuffs
 // // DON !== JavaScript
-
 // // DOM and DOM methods are part of the web APIs. Web APIs are basically libraries that browsers implement and we can access them without having to write the code for them
 
 // 'use strict';
