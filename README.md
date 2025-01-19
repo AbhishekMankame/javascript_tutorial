@@ -1,2 +1,2 @@
 # javascript_tutorial
-Learning JavaScript through coding in VS Code
+Learning JavaScript through practicing and coding in VS Code
