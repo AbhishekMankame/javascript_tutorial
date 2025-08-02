@@ -1,27 +1,13 @@
-const fs = require('fs'); // Here fs --> file system
+// Creating a simple web server
 
-// const textIn = fs.readFileSync('./starter/txt/input.txt','utf-8');
-// console.log(textIn);
+const http = require('http');
+ // Here http is the important module that give networking capabilites such as building http servers
 
-// Blocking, synchronous way
-// const textOut = `This is what we know about the avocado: ${textIn}.\nCreated on ${Date.now()}`
-// fs.writeFileSync('./starter/txt/output.txt', textOut);
-// console.log('File written!');
-// const hello = 'Hello World';
-// console.log(hello);
+ const server = http.createServer((req, res) => {
+    res.end('Hello from the server!!!');
+ });
 
-// Non-blocking, asynchrous way
-fs.readFile('./starter/txt/start.txt', 'utf-8', (err, data1) => {
-    fs.readFile(`./starter/txt/${data1}.txt`,'utf-8', (err,data2) => {
-        console.log(data2);
-        fs.readFile(`./starter/txt/append.txt`,'utf-8', (err,data3) => {
-        console.log(data3);
-
-    });
-    });
-
-
-
-    // console.log(data); // Note: Here text also works file instead of data
-});
-console.log('Will read file!');
+ // Note: Here 8000 is the port number and 127.0.0.1 is the host
+ server.listen(8000, '127.0.0.1', () => {
+    console.log('Listening to requests on port 8000');
+ });
