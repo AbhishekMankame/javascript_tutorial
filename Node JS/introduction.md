@@ -7,6 +7,8 @@ Node js is like a container or environment in which a program written in javascr
 
 - Single-threaded, based on event driven, non-blocking I/O model
 - Perfect for building fast and scalable data-intensive apps.
+- NPM: huge library of open-source packages available for everyone for free.
+- Very active developer community.
 
 ### Use Node.js
 
@@ -14,3 +16,7 @@ Node js is like a container or environment in which a program written in javascr
 - Data streaming (think YouTube)
 - Real-time chat application
 - Server-side web application
+
+### Don't use Node.js
+
+- Applications with heavy server-side processing (CPU-intensive)
