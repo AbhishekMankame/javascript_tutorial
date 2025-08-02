@@ -25,14 +25,14 @@ Node js is like a container or environment in which a program written in javascr
 
 Synchronous code is also called blocking code. Because here each line blocks the execution of the other line. As certain operations can only be executed after the one is finished.
 
-<code>
+<pre>
 const fs = require('fs');
 
 // Blocking code execution
 const input = fs.readFileSync('input.txt','utf-8');
 console.log(input);
 
-</code>
+</pre>
 
 Asynchronous JS
 
