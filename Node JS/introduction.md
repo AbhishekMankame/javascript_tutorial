@@ -45,3 +45,7 @@ fs.readFile('input.txt','utf-8', (err,data) => {
 });
 console.log('Reading file...');
  </pre>
+
+## Routing
+
+Routing basically means implementing different actions for different URLs.

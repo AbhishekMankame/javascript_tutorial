@@ -3,8 +3,10 @@
 const http = require('http');
  // Here http is the important module that give networking capabilites such as building http servers
 
+const url = require('url');
+
  const server = http.createServer((req, res) => {
-    console.log(req);
+    console.log(req.url);
     res.end('Hello from the server!!!');
  });
 
