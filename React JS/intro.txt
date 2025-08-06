@@ -9,3 +9,10 @@ Creating a react app
 To create a new app using vite:
 npm create vite@latest    or you can use specific version
 npm create vite@4.1.0
+
+Difference between Library and Framework
+-- Library is a tool that provides specific functionality
+-- Framework is a set of tools and guidelines for building apps
+-- Library is like a tool and Framework is like an tool set
+-- React is a tool to build an user interfaces
+-- It is good at creating dynamic and interactive user interfaces
