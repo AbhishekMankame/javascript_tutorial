@@ -1,1 +1,11 @@
 React is javascript library for building dynamic and interactive user interfaces.
+Components help us write reuasable, modular, and better organized code
+
+Creating a react app
+-- There are two ways to create react app
+1. Create React APP (CRA)
+2. Vite
+
+To create a new app using vite:
+npm create vite@latest    or you can use specific version
+npm create vite@4.1.0
