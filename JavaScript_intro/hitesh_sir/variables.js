@@ -13,3 +13,9 @@ console.log(accountEmail)
 console.log(accountPassword)
 accountPassword = "21212121"
 console.log(accountPassword)
+
+console.log(accountCity)
+accountCity = "Bengaluru"
+console.log(accountCity)
+
+console.table([accountId, accountEmail, accountPassword, accountCity])
