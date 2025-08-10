@@ -22,5 +22,5 @@ let state = null
 
 console.log(typeof "hitest")
 console.log(typeof age)
-console.log(typeof undefined)
-console.log(typeof null)
+console.log(typeof undefined) // type of undefined will be undefined
+console.log(typeof null)  // type of null will be object
