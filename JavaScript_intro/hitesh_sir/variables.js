@@ -9,3 +9,7 @@ console.log(accountId);
 console.log(accountEmail)
 accountEmail = "defg@google.com"
 console.log(accountEmail)
+
+console.log(accountPassword)
+accountPassword = "21212121"
+console.log(accountPassword)
