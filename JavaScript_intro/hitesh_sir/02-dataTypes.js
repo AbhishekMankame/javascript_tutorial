@@ -22,3 +22,5 @@ let state = null
 
 console.log(typeof "hitest")
 console.log(typeof age)
+console.log(typeof undefined)
+console.log(typeof null)
