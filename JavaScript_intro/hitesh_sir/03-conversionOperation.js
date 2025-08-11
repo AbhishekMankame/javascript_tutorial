@@ -13,7 +13,7 @@ console.log(typeof valueInNumber)
 // trye => 1
 // false => 0
 
-let isLoggedIn =1
+let isLoggedIn = 1
 console.log(typeof isLoggedIn)
 console.log(isLoggedIn)
 
@@ -24,6 +24,12 @@ console.log(typeof booleanIsLoggenIn)
 // 1 => true; 0 => false
 // "" => false
 // "abc" => true
+
+let logg = 2;
+console.log(typeof logg)
+let logs = Boolean(logg)
+console.log(logs)
+console.log(typeof logs)
 
 let someNumber = 33
 let stringNumber = String(someNumber)
