@@ -36,4 +36,5 @@ console.log([num1, num2, num3])
 
 let gameCounter = 100
 gameCounter++;
+++gameCounter;
 console.log(gameCounter);
