@@ -15,3 +15,8 @@ console.log(null > 0)
 console.log(null >= 0)
 console.log(null < 0)
 console.log(null == 0)
+
+// strict check "==="
+console.log("\n")
+console.log(2 =="2") // Returns true
+console.log(2 === "2") // Returns false
