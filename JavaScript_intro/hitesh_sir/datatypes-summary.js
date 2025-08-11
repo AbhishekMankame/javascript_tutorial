@@ -19,6 +19,26 @@ console.log(id)
 console.log(anotherId)
 console.log(id === anotherId)
 
+const bigNumber = 3456456464564356434n // yaha par 'n' lagane se woh automatically big int bann gaya hai
+console.log(typeof bigNumber)
 
-// Reference (Non primitive)
+
+// Reference (Non primitive) --> Inka referenced type hota hai
 // Array, Objects, Functions
+
+const heros = ["shaktiman", "nagaraj", "doga"];
+
+let myObj = {
+    name: "Abhishek",
+    age: 24
+}
+
+const myFunction = function () {
+    console.log("Hello world");
+}
+
+console.log(typeof bigNumber)
+console.log(typeof heros)
+console.log(typeof myObj)
+console.log(typeof myFunction)
+console.log(typeof anotherId)
