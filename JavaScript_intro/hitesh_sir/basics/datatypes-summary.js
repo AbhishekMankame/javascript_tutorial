@@ -42,3 +42,11 @@ console.log(typeof heros)
 console.log(typeof myObj)
 console.log(typeof myFunction)
 console.log(typeof anotherId)
+
+// +++++++++++++++++++++++ Memories ++++++++++++++++
+
+// Stack, Heap memory
+// Primitive data types mei stack use hoti hai
+// Non primitive types mei Heap use hoti hai
+// Stack memory is like pass by value -> variables joh bhi pass kiya hai uska copy milta hai
+// Heap is like pass by reference
