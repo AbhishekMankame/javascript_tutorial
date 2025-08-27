@@ -33,3 +33,6 @@ console.log(url.replace('%20','-'));
 
 console.log(url.includes('hits'));
 console.log(url.includes('hitesh'));
+
+const gameName1 = new String('hitesh-hc-com');
+console.log(gameName1.split('-'));
