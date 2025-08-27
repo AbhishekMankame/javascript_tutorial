@@ -11,3 +11,6 @@ const gameName = new String('hiteshhc')
 console.log(gameName[0]);
 console.log(gameName.__proto__);
 console.log(gameName.length);
+console.log(gameName.toUpperCase()); // yaha par original value change nahi hota
+console.log(gameName);
+console.log(gameName.toLowerCase());
