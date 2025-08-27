@@ -7,3 +7,5 @@ console.log(name + repoCount)
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`) // String interpolation
 
+const gameName = new String('hiteshhc')
+console.log(gameName[0]);
