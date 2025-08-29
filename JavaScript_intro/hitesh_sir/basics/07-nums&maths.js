@@ -21,3 +21,8 @@ console.log(Math.round(3.44));
 console.log(Math.round(3.8));
 console.log(Math.ceil(5.1));
 console.log(Math.floor(5.1));
+console.log(Math.sqrt(3.3));
+console.log(Math.sqrt(4));
+console.log(Math.min(4,3,6,7,8,1));
+console.log(Math.max(4,3,5,6,1,8,7));
+console.log(Math.random());
