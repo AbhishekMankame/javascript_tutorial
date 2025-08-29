@@ -13,3 +13,11 @@ console.log(otherNumber.toPrecision(15));
 
 const hundred = 100000
 console.log(hundred.toLocaleString('en-IN'));
+
+// +++++++++++++++ Maths ++++++++++++++++++
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(3.44));
+console.log(Math.round(3.8));
+console.log(Math.ceil(5.1));
+console.log(Math.floor(5.1));
