@@ -36,4 +36,4 @@ const myn2 = myArr.splice(1,3);
 console.log(myn2);
 console.log("C",myArr);
 
-// Splice use karne ke baad, joh portion range mei tha, woh original array mei se nikal hi gaya hai
+// Splice use karne ke baad, joh portion range mei tha, woh original array mei se nikal hi gaya hai, original array hi manipulate ho gaya hai
