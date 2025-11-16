@@ -31,3 +31,15 @@ These actions follow REST rules.
 3. Use of standard HTTP methods
 4. Use of URLs (endpoints)
 5. Use of JSON: REST API usually send data in JSON format.
+
+
+## What is JSON?
+JSON stands for JavaScript Object Notation.<br>
+It is the most common format used to send data between frontend and backend.<br>
+In simple words: JSON is a simple text format that looks like a JavaScript object and is used to store or send data.
+
+### Why JSON?
+- Easy to read
+- Easy to write
+- Works in all programming languages
+- Perfect for APIs
