@@ -43,3 +43,18 @@ In simple words: JSON is a simple text format that looks like a JavaScript objec
 - Easy to write
 - Works in all programming languages
 - Perfect for APIs
+
+### JSON has:
+- Key-value pairs
+- String "text"
+- Numbers
+- Boolean (true/false)
+- Arrays
+- Objects
+
+### Rules of JSON
+- Key must be in double quotes
+- Strings in double quotes
+- No comments allowed
+- Cannot contain functions
+- Cannot have trailing commas
