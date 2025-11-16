@@ -56,3 +56,15 @@ Only one part is changed.
 - ❌ DELETE - "Cancel the order" <br>
 You say: "Cancel my dish." <br>
 The order is removed completely.
+
+### ⚡Want a super quick memory trick?
+🍔 CRUD = Create, Read, Update, Delete
+
+Match them like this:
+
+| CRUD Action | HTTP Method |
+| ----------- | ----------- |
+| Create | POST |
+| Read | GET |
+| Update | PUT/PATCH |
+| Delete | DELETE |
