@@ -25,3 +25,11 @@ Simple meaning: Update only this part
 
 5. DELETE Request: DELETE is an HTTP method used to remove or delete a resource from the server.
 Simple meaning: Remove this
+
+
+### ⭐Short Summary in One Line Each
+- GET -> Read data
+- POST -> Create new data
+- PUT -> Replace existing data completely
+- PATCH -> Update a small part of existing data
+- DELETE -> Remove data
