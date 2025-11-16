@@ -37,6 +37,22 @@ Simple meaning: Remove this
 
 ### Real-Life Analogy (Resturant Example)
 Imagine the backend is a resturant kitchen and you are the waiter (frontend).
-- GET - "Show me the menu" : <br>
+- 🍽️ GET - "Show me the menu" : <br>
 You ask the kitchen: "Can I see what's on the menu?" <br>
 The kitchen gives you the information but does not change anything.
+
+- 🧾 POST - "Add a new order" <br>
+You give the kitchen a new order: "Here is a new dish to prepare."<br>
+Something new is created.
+
+- 🔄 PUT - "Replace the whole order" <br>
+You say: "Change my entire order to a pizza instead." <br>
+The old order is replaced fully.
+
+- ✏️ PATCH - "Change only one part of my order" <br>
+You say: "Keep my dish the same, just make it less spicy."<br>
+Only one part is changed.
+
+- ❌ DELETE - "Cancel the order" <br>
+You say: "Cancel my dish." <br>
+The order is removed completely.
